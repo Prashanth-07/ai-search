@@ -381,8 +381,105 @@ def main():
         "name": "VirtualAssistant",
         "description": "A comprehensive virtual assistant powered by AI to manage tasks and provide information.",
         "api_details": "Endpoint: /api/assistant, Method: POST, Params: {'capabilities': 'full'}"
+    },
+    {
+        "name": "Anthropic Claude API",
+        "tool_id": "N/A",
+        "vector_id": "ddf09dd3-2c8c-46ae-a220-ff33c819098d",
+        "description": "API access to Claude AI model",
+        "categories": ["AI API", "Language Models"],
+        "pricing": "Pay per token, Enterprise options"
+    },
+    {
+        "name": "GitHub Copilot",
+        "tool_id": "N/A",
+        "vector_id": "65ca526e-b3ca-4cdb-93ab-72bdd14ec682",
+        "description": "AI-powered code completion tool",
+        "categories": ["Development Tools", "AI Coding"],
+        "pricing": "Monthly subscription, Student plans available"
+    },
+    {
+        "name": "DALL-E 3",
+        "tool_id": "N/A",
+        "vector_id": "44ca8a42-cd98-4555-8965-644649a53f2f",
+        "description": "Advanced image generation model with high fidelity output",
+        "categories": ["Image Generation", "AI Art"],
+        "pricing": "Credits based system, Per image generation cost"
+    },
+    {
+        "name": "DALL-E 3",
+        "tool_id": "dalle3-001",
+        "vector_id": "ee6e8242-30ae-4d61-9dc6-8f628910c0a4",
+        "description": "Advanced image generation model",
+        "categories": ["Image Generation", "AI Art"],
+        "pricing": "Credits based system"
+    },
+    {
+        "name": "Midjourney V6",
+        "tool_id": "N/A",
+        "vector_id": "56d54b60-b706-4da8-a6ce-f55088dd80f7",
+        "description": "AI image generation with artistic focus",
+        "categories": ["Image Generation", "AI Art"],
+        "pricing": "Monthly subscription, Different tier options"
+    },
+    {
+        "name": "LangChain",
+        "tool_id": "N/A",
+        "vector_id": "b1c862e3-ba8e-42d7-a870-5ec9dd7c564c",
+        "description": "Framework for building LLM applications",
+        "categories": ["Development Framework", "AI Tools"],
+        "pricing": "Open source, Free to use"
+    },
+    {
+        "name": "Claude 2",
+        "tool_id": "N/A",
+        "vector_id": "545889cd-976e-4fe3-979a-bd453b7041a8",
+        "description": "Advanced AI assistant with strong analysis capabilities",
+        "categories": ["AI Assistant", "Analysis"],
+        "pricing": "API access pricing, Different tiers available"
+    },
+    {
+        "name": "Test AI Assistant",
+        "tool_id": "N/A",
+        "vector_id": "86313256-d704-4e99-a201-c9450123037c",
+        "description": "A powerful AI assistant for testing purposes",
+        "categories": ["Testing", "AI", "Automation"],
+        "pricing": "Free for testing, $10/month for production"
+    },
+    {
+        "name": "GPT-4",
+        "tool_id": "gpt4-002",
+        "vector_id": "4667508e-5bab-463d-b748-b4337de2a9bf",
+        "description": "Alternative deployment of GPT-4",
+        "categories": ["Language Models", "AI", "NLP"],
+        "pricing": "Enterprise pricing"
+    },
+    {
+        "name": "GPT-4",
+        "tool_id": "N/A",
+        "vector_id": "17e4b1a1-c64a-428e-a67e-473b0599560b",
+        "description": "Advanced language model with improved reasoning capabilities",
+        "categories": ["Language Models", "AI", "NLP"],
+        "pricing": "Pay per token, Higher rate than GPT-3.5"
+    },
+    {
+        "name": "Stable Diffusion XL",
+        "tool_id": "N/A",
+        "vector_id": "2ca08e86-3101-4cea-a409-4c8d8452e9f7",
+        "description": "Open source image generation model",
+        "categories": ["Image Generation", "AI Art"],
+        "pricing": "Free for self-hosting, Commercial licenses available"
+    },
+    {
+        "name": "ChatGPT Plus",
+        "tool_id": "N/A",
+        "vector_id": "f4711a03-f4a0-4881-b2ff-f0eb7f7f507a",
+        "description": "Enhanced version of ChatGPT with additional features",
+        "categories": ["AI Chat", "Assistant"],
+        "pricing": "Monthly subscription fee"
     }
 ]
+
 
     # Initialize the vector store with tool data
     print("Initializing RAG system with tool data...")
