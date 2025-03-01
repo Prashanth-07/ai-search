@@ -3209,3 +3209,639 @@ Pricing: Subscription-based with enterprise options
 2025-03-01 00:09:31,195 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
 2025-03-01 00:09:31,196 - INFO - Looking for plugins in pinecone_plugins.inference
 2025-03-01 00:09:31,196 - INFO - Installing plugin inference into Pinecone
+2025-03-02 02:06:59,036 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 02:06:59,036 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 02:06:59,109 - INFO - Installing plugin inference into Pinecone
+2025-03-02 02:06:59,117 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 02:06:59,119 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 02:06:59,119 - INFO - Installing plugin inference into Pinecone
+2025-03-02 02:08:43,384 - INFO - Total vectors in index: 74
+2025-03-02 02:08:49,685 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 02:08:49,687 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 02:08:49,688 - INFO - Installing plugin inference into Pinecone
+2025-03-02 02:08:59,076 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 02:10:03,200 - INFO - Processing query: code generation tool
+2025-03-02 02:10:06,578 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 02:10:06,580 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 02:10:06,580 - INFO - Installing plugin inference into Pinecone
+2025-03-02 02:10:11,836 - INFO - Total vectors in index: 74
+2025-03-02 02:10:11,852 - INFO - Total vectors in store: 74
+2025-03-02 02:10:17,192 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 02:10:20,338 - INFO - === Document 1 ===
+2025-03-02 02:10:20,338 - INFO - Tool ID: codeassistpro-054
+2025-03-02 02:10:20,338 - INFO - Formatted doc: Tool ID: codeassistpro-054
+Name: CodeAssist Pro
+Description: CodeAssist Pro is an AI-enhanced coding assistant designed to help developers write, debug, and optimize code efficiently while supporting multiple programming languages.
+Categories: Code & IT: Code Generators, Debugging Tools, Developer Productivity
+Usage: Assisting developers in writing and debugging code more efficiently
+Unique Features: AI-driven code optimization and real-time error detection
+Pros: Provides real-time code suggestions and error detection, Supports multiple programming languages, Helps improve code quality and development speed
+Cons: May not catch all complex coding issues, Some features require integration with specific IDEs, Advanced debugging tools are available only in premium plans
+Pricing: Freemium with subscription-based premium features
+2025-03-02 02:10:20,338 - INFO - =====================
+2025-03-02 02:10:20,338 - INFO - === Document 2 ===
+2025-03-02 02:10:20,338 - INFO - Tool ID: iconme-023
+2025-03-02 02:10:20,338 - INFO - Formatted doc: Tool ID: iconme-023
+Name: Icon.me
+Description: Icon.me is an AI-driven platform that streamlines the ad creation process by combining the capabilities of ChatGPT and CapCut. It helps generate high-quality advertisements by analyzing video libraries, tagging scenes, and integrating scriptwriting, video editing, and creative analytics.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Creating effective digital advertisements by automating scriptwriting, video editing, and creative analytics
+Unique Features: Combines ChatGPT and CapCut functionalities, scene tagging from video libraries, and competitor ad spying
+Pros: Saves time by automating many aspects of ad creation, Comprehensive suite of integrated tools for video ads, Cost-efficient by replacing multiple expensive tools
+Cons: May have a learning curve to master all features, Dependency on AI might sometimes produce generic content, Limited advanced customization for niche requirements
+Pricing: Not specified (check official site for subscription details)
+2025-03-02 02:10:20,349 - INFO - =====================
+2025-03-02 02:10:20,351 - INFO - === Document 3 ===
+2025-03-02 02:10:20,351 - INFO - Tool ID: lmkit-026
+2025-03-02 02:10:20,351 - INFO - Formatted doc: Tool ID: lmkit-026
+Name: LM-Kit
+Description: LM-Kit is a comprehensive toolkit that allows developers to integrate generative AI capabilities into .NET applications easily. It streamlines the addition of advanced AI features without extensive setup or complex integration.
+Categories: AI Chatbot: AI Integration Tools, Generative AI Assistants; Life Assistant: Software Enhancement, AI-Driven Features; Design & Art: AI Toolkits, Developer Resources; Text & Writing: Documentation, AI Implementation Guides; Education: AI Learning Resources, Developer Tutorials
+Usage: Enhancing .NET applications with advanced generative AI features quickly and efficiently
+Unique Features: Easy integration into .NET, unlimited free trial, comprehensive developer documentation
+Pros: Seamless integration with .NET applications, Advanced AI features enhance application functionality, Free trial with unlimited access for exploration, Comprehensive documentation to get started quickly
+Cons: Currently limited to .NET applications, Effectiveness relies on the quality of underlying AI models, Some learning curve associated with the documentation
+Pricing: Not specified (free trial available, then subscription-based)
+2025-03-02 02:10:20,351 - INFO - =====================
+2025-03-02 02:10:20,351 - INFO - === Document 4 ===
+2025-03-02 02:10:20,356 - INFO - Tool ID: musicmakerai-049
+2025-03-02 02:10:20,356 - INFO - Formatted doc: Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+2025-03-02 02:10:20,356 - INFO - =====================
+2025-03-02 02:10:20,356 - INFO - === Document 5 ===
+2025-03-02 02:10:20,356 - INFO - Tool ID: extructai-008
+2025-03-02 02:10:20,356 - INFO - Formatted doc: Tool ID: extructai-008
+Name: Extruct.ai
+Description: Extruct.ai is an AI-powered data extraction platform that converts unstructured documents such as PDFs, images, and scans into structured formats like JSON, CSV, or Excel using advanced machine learning.
+Categories: Business: Document Automation, Data Extraction Tools; Productivity: Workflow Automation, Data Processing; Code & IT: API Tools, Data Conversion Solutions; AI Detector: Document Analysis, Text Recognition
+Usage: Automating the extraction of structured data from unstructured documents for further analysis or integration
+Unique Features: Customizable extraction models, multi-format support, API integration for seamless workflow
+Pros: Handles complex documents including tables and handwritten text, Supports multiple file formats, Reduces manual data entry significantly
+Cons: Advanced features may require premium pricing, Customization options can be overwhelming for non-technical users
+Pricing: Not specified (assumed subscription-based)
+2025-03-02 02:10:20,362 - INFO - =====================
+2025-03-02 02:10:20,362 - INFO - === Complete Context ===
+2025-03-02 02:10:20,362 - INFO - Tool ID: codeassistpro-054
+Name: CodeAssist Pro
+Description: CodeAssist Pro is an AI-enhanced coding assistant designed to help developers write, debug, and optimize code efficiently while supporting multiple programming languages.
+Categories: Code & IT: Code Generators, Debugging Tools, Developer Productivity
+Usage: Assisting developers in writing and debugging code more efficiently
+Unique Features: AI-driven code optimization and real-time error detection
+Pros: Provides real-time code suggestions and error detection, Supports multiple programming languages, Helps improve code quality and development speed
+Cons: May not catch all complex coding issues, Some features require integration with specific IDEs, Advanced debugging tools are available only in premium plans
+Pricing: Freemium with subscription-based premium features
+
+---
+
+Tool ID: iconme-023
+Name: Icon.me
+Description: Icon.me is an AI-driven platform that streamlines the ad creation process by combining the capabilities of ChatGPT and CapCut. It helps generate high-quality advertisements by analyzing video libraries, tagging scenes, and integrating scriptwriting, video editing, and creative analytics.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Creating effective digital advertisements by automating scriptwriting, video editing, and creative analytics
+Unique Features: Combines ChatGPT and CapCut functionalities, scene tagging from video libraries, and competitor ad spying
+Pros: Saves time by automating many aspects of ad creation, Comprehensive suite of integrated tools for video ads, Cost-efficient by replacing multiple expensive tools
+Cons: May have a learning curve to master all features, Dependency on AI might sometimes produce generic content, Limited advanced customization for niche requirements
+Pricing: Not specified (check official site for subscription details)
+
+---
+
+Tool ID: lmkit-026
+Name: LM-Kit
+Description: LM-Kit is a comprehensive toolkit that allows developers to integrate generative AI capabilities into .NET applications easily. It streamlines the addition of advanced AI features without extensive setup or complex integration.
+Categories: AI Chatbot: AI Integration Tools, Generative AI Assistants; Life Assistant: Software Enhancement, AI-Driven Features; Design & Art: AI Toolkits, Developer Resources; Text & Writing: Documentation, AI Implementation Guides; Education: AI Learning Resources, Developer Tutorials
+Usage: Enhancing .NET applications with advanced generative AI features quickly and efficiently
+Unique Features: Easy integration into .NET, unlimited free trial, comprehensive developer documentation
+Pros: Seamless integration with .NET applications, Advanced AI features enhance application functionality, Free trial with unlimited access for exploration, Comprehensive documentation to get started quickly
+Cons: Currently limited to .NET applications, Effectiveness relies on the quality of underlying AI models, Some learning curve associated with the documentation
+Pricing: Not specified (free trial available, then subscription-based)
+
+---
+
+Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+
+---
+
+Tool ID: extructai-008
+Name: Extruct.ai
+Description: Extruct.ai is an AI-powered data extraction platform that converts unstructured documents such as PDFs, images, and scans into structured formats like JSON, CSV, or Excel using advanced machine learning.
+Categories: Business: Document Automation, Data Extraction Tools; Productivity: Workflow Automation, Data Processing; Code & IT: API Tools, Data Conversion Solutions; AI Detector: Document Analysis, Text Recognition
+Usage: Automating the extraction of structured data from unstructured documents for further analysis or integration
+Unique Features: Customizable extraction models, multi-format support, API integration for seamless workflow
+Pros: Handles complex documents including tables and handwritten text, Supports multiple file formats, Reduces manual data entry significantly
+Cons: Advanced features may require premium pricing, Customization options can be overwhelming for non-technical users
+Pricing: Not specified (assumed subscription-based)
+2025-03-02 02:10:20,365 - INFO - =====================
+2025-03-02 02:10:20,365 - INFO - === LLM Input ===
+2025-03-02 02:10:20,365 - INFO - Question: code generation tool
+2025-03-02 02:10:20,371 - INFO - Context: Tool ID: codeassistpro-054
+Name: CodeAssist Pro
+Description: CodeAssist Pro is an AI-enhanced coding assistant designed to help developers write, debug, and optimize code efficiently while supporting multiple programming languages.
+Categories: Code & IT: Code Generators, Debugging Tools, Developer Productivity
+Usage: Assisting developers in writing and debugging code more efficiently
+Unique Features: AI-driven code optimization and real-time error detection
+Pros: Provides real-time code suggestions and error detection, Supports multiple programming languages, Helps improve code quality and development speed
+Cons: May not catch all complex coding issues, Some features require integration with specific IDEs, Advanced debugging tools are available only in premium plans
+Pricing: Freemium with subscription-based premium features
+
+---
+
+Tool ID: iconme-023
+Name: Icon.me
+Description: Icon.me is an AI-driven platform that streamlines the ad creation process by combining the capabilities of ChatGPT and CapCut. It helps generate high-quality advertisements by analyzing video libraries, tagging scenes, and integrating scriptwriting, video editing, and creative analytics.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Creating effective digital advertisements by automating scriptwriting, video editing, and creative analytics
+Unique Features: Combines ChatGPT and CapCut functionalities, scene tagging from video libraries, and competitor ad spying
+Pros: Saves time by automating many aspects of ad creation, Comprehensive suite of integrated tools for video ads, Cost-efficient by replacing multiple expensive tools
+Cons: May have a learning curve to master all features, Dependency on AI might sometimes produce generic content, Limited advanced customization for niche requirements
+Pricing: Not specified (check official site for subscription details)
+
+---
+
+Tool ID: lmkit-026
+Name: LM-Kit
+Description: LM-Kit is a comprehensive toolkit that allows developers to integrate generative AI capabilities into .NET applications easily. It streamlines the addition of advanced AI features without extensive setup or complex integration.
+Categories: AI Chatbot: AI Integration Tools, Generative AI Assistants; Life Assistant: Software Enhancement, AI-Driven Features; Design & Art: AI Toolkits, Developer Resources; Text & Writing: Documentation, AI Implementation Guides; Education: AI Learning Resources, Developer Tutorials
+Usage: Enhancing .NET applications with advanced generative AI features quickly and efficiently
+Unique Features: Easy integration into .NET, unlimited free trial, comprehensive developer documentation
+Pros: Seamless integration with .NET applications, Advanced AI features enhance application functionality, Free trial with unlimited access for exploration, Comprehensive documentation to get started quickly
+Cons: Currently limited to .NET applications, Effectiveness relies on the quality of underlying AI models, Some learning curve associated with the documentation
+Pricing: Not specified (free trial available, then subscription-based)
+
+---
+
+Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+
+---
+
+Tool ID: extructai-008
+Name: Extruct.ai
+Description: Extruct.ai is an AI-powered data extraction platform that converts unstructured documents such as PDFs, images, and scans into structured formats like JSON, CSV, or Excel using advanced machine learning.
+Categories: Business: Document Automation, Data Extraction Tools; Productivity: Workflow Automation, Data Processing; Code & IT: API Tools, Data Conversion Solutions; AI Detector: Document Analysis, Text Recognition
+Usage: Automating the extraction of structured data from unstructured documents for further analysis or integration
+Unique Features: Customizable extraction models, multi-format support, API integration for seamless workflow
+Pros: Handles complex documents including tables and handwritten text, Supports multiple file formats, Reduces manual data entry significantly
+Cons: Advanced features may require premium pricing, Customization options can be overwhelming for non-technical users
+Pricing: Not specified (assumed subscription-based)
+2025-03-02 02:10:20,373 - INFO - ================
+2025-03-02 02:10:26,908 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-02 02:10:43,320 - INFO - Cleaned response: {
+  "tool_id": [
+    "codeassistpro-054"
+  ],
+  "tools": [
+    {
+      "id": "codeassistpro-054",
+      "name": "CodeAssist Pro",
+      "description": "An AI-enhanced coding assistant designed to help developers write, debug, and optimize code efficiently across multiple programming languages."
+    }
+  ]
+}
+2025-03-02 02:23:53,628 - INFO - Processing query: I want to go on a trip , give best advisor tool
+2025-03-02 02:23:56,218 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 02:23:56,218 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 02:23:56,218 - INFO - Installing plugin inference into Pinecone
+2025-03-02 02:24:00,926 - INFO - Total vectors in index: 74
+2025-03-02 02:24:00,933 - INFO - Total vectors in store: 74
+2025-03-02 02:24:08,579 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 02:24:11,733 - INFO - === Document 1 ===
+2025-03-02 02:24:11,733 - INFO - Tool ID: traveladvisorai-062
+2025-03-02 02:24:11,733 - INFO - Formatted doc: Tool ID: traveladvisorai-062
+Name: TravelAdvisor AI
+Description: TravelAdvisor AI is an AI-powered travel assistant that provides personalized travel recommendations, itinerary planning, and real-time alerts on travel disruptions, ensuring a smooth travel experience.
+Categories: Life Assistant: Travel Planning, Itinerary Management; Productivity: Personal Organization; Business: Travel Solutions
+Usage: Helping travelers plan trips efficiently and stay updated on travel conditions
+Unique Features: AI-driven itinerary generation and real-time travel disruption alerts
+Pros: Offers personalized travel recommendations based on user preferences, Generates detailed itineraries quickly, Provides real-time alerts on flight delays and travel disruptions
+Cons: May not cover all international destinations, Some advanced features require premium access, Dependent on the accuracy of real-time data feeds
+Pricing: Freemium with premium subscription options
+2025-03-02 02:24:11,733 - INFO - =====================
+2025-03-02 02:24:11,733 - INFO - === Document 2 ===
+2025-03-02 02:24:11,733 - INFO - Tool ID: eventspark-051
+2025-03-02 02:24:11,733 - INFO - Formatted doc: Tool ID: eventspark-051
+Name: EventSpark
+Description: EventSpark is an AI-powered event planning tool that automates scheduling, guest list management, and real-time coordination to help organize events efficiently.
+Categories: Business: Event Management; Productivity: Scheduling and Coordination
+Usage: Streamlining event planning, registration, and on-site coordination
+Unique Features: AI-driven scheduling and real-time event updates
+Pros: Automates complex event planning tasks, Real-time coordination enhances event management, Customizable event templates available
+Cons: May require manual adjustments for niche events, Advanced features require premium access, Integration with some ticketing systems can be limited
+Pricing: Subscription-based with tiered plans
+2025-03-02 02:24:11,743 - INFO - =====================
+2025-03-02 02:24:11,745 - INFO - === Document 3 ===
+2025-03-02 02:24:11,745 - INFO - Tool ID: stylemaven-046
+2025-03-02 02:24:11,745 - INFO - Formatted doc: Tool ID: stylemaven-046
+Name: StyleMaven
+Description: StyleMaven is an AI-driven fashion recommendation and styling tool that curates personalized outfit suggestions, tracks fashion trends, and provides styling advice based on individual preferences.
+Categories: Design & Art: Fashion Tools, Visual Design; Life Assistant: Personal Styling
+Usage: Providing personalized fashion recommendations and styling advice
+Unique Features: AI-driven style analysis, trend tracking, and personalized outfit curation
+Pros: Delivers personalized outfit recommendations, Tracks current fashion trends in real time, Easy-to-use interface with visual inspiration
+Cons: May have limited options for niche fashion styles, Recommendations can be generic without user input, Premium styling advice requires a subscription
+Pricing: Freemium with premium upgrades
+2025-03-02 02:24:11,745 - INFO - =====================
+2025-03-02 02:24:11,749 - INFO - === Document 4 ===
+2025-03-02 02:24:11,749 - INFO - Tool ID: tradevectorai-012
+2025-03-02 02:24:11,751 - INFO - Formatted doc: Tool ID: tradevectorai-012
+Name: TradeVector AI
+Description: TradeVector AI is an AI-powered trading platform designed to assist cryptocurrency investors with personalized insights, educational resources, and robust risk management tools for informed trading decisions.
+Categories: Finance & Investment: Cryptocurrency Trading Platforms, AI-Driven Investment Tools; Education: Trading Courses, Investment Strategy Resources; Productivity: Market Analysis Tools, Risk Management Solutions
+Usage: Providing AI-powered trading insights, educational resources, and risk management for cryptocurrency trading
+Unique Features: Personalized trading insights across thousands of markets, comprehensive educational courses, real-time alerts
+Pros: Diverse analytical tools with advanced charting features, Real-time market updates and price alerts, Robust risk management tools for volatile markets
+Cons: Some concerns about platform authenticity and withdrawal issues, Limited external reviews make evaluation challenging
+Pricing: Not specified (research advised regarding fees)
+2025-03-02 02:24:11,751 - INFO - =====================
+2025-03-02 02:24:11,753 - INFO - === Document 5 ===
+2025-03-02 02:24:11,755 - INFO - Tool ID: solvrme-014
+2025-03-02 02:24:11,755 - INFO - Formatted doc: Tool ID: solvrme-014
+Name: Solvr.me
+Description: Solvr.me is an AI-powered platform that connects users with subject matter experts for problem-solving and collaboration, offering quick advice and strategic insights across various industries.
+Categories: Productivity: Task Management, Collaboration Tools; Business: Professional Networking, Project Management; AI Chatbot: AI Assistants; Life Assistant: Personal Productivity, Interactive Planning
+Usage: Connecting users to expert advice for business, academic, or personal problem-solving
+Unique Features: Direct access to professionals, collaborative problem-solving tools, real-time expert responses
+Pros: Wide expert network across diverse fields, Quick response time with real-time solutions, Intuitive and user-friendly interface
+Cons: Expert quality may vary, Some consultations may require payment for premium access, Regional coverage may be limited in some areas
+Pricing: Not specified (basic access free with premium consultation options)
+2025-03-02 02:24:11,755 - INFO - =====================
+2025-03-02 02:24:11,755 - INFO - === Complete Context ===
+2025-03-02 02:24:11,760 - INFO - Tool ID: traveladvisorai-062
+Name: TravelAdvisor AI
+Description: TravelAdvisor AI is an AI-powered travel assistant that provides personalized travel recommendations, itinerary planning, and real-time alerts on travel disruptions, ensuring a smooth travel experience.
+Categories: Life Assistant: Travel Planning, Itinerary Management; Productivity: Personal Organization; Business: Travel Solutions
+Usage: Helping travelers plan trips efficiently and stay updated on travel conditions
+Unique Features: AI-driven itinerary generation and real-time travel disruption alerts
+Pros: Offers personalized travel recommendations based on user preferences, Generates detailed itineraries quickly, Provides real-time alerts on flight delays and travel disruptions
+Cons: May not cover all international destinations, Some advanced features require premium access, Dependent on the accuracy of real-time data feeds
+Pricing: Freemium with premium subscription options
+
+---
+
+Tool ID: eventspark-051
+Name: EventSpark
+Description: EventSpark is an AI-powered event planning tool that automates scheduling, guest list management, and real-time coordination to help organize events efficiently.
+Categories: Business: Event Management; Productivity: Scheduling and Coordination
+Usage: Streamlining event planning, registration, and on-site coordination
+Unique Features: AI-driven scheduling and real-time event updates
+Pros: Automates complex event planning tasks, Real-time coordination enhances event management, Customizable event templates available
+Cons: May require manual adjustments for niche events, Advanced features require premium access, Integration with some ticketing systems can be limited
+Pricing: Subscription-based with tiered plans
+
+---
+
+Tool ID: stylemaven-046
+Name: StyleMaven
+Description: StyleMaven is an AI-driven fashion recommendation and styling tool that curates personalized outfit suggestions, tracks fashion trends, and provides styling advice based on individual preferences.
+Categories: Design & Art: Fashion Tools, Visual Design; Life Assistant: Personal Styling
+Usage: Providing personalized fashion recommendations and styling advice
+Unique Features: AI-driven style analysis, trend tracking, and personalized outfit curation
+Pros: Delivers personalized outfit recommendations, Tracks current fashion trends in real time, Easy-to-use interface with visual inspiration
+Cons: May have limited options for niche fashion styles, Recommendations can be generic without user input, Premium styling advice requires a subscription
+Pricing: Freemium with premium upgrades
+
+---
+
+Tool ID: tradevectorai-012
+Name: TradeVector AI
+Description: TradeVector AI is an AI-powered trading platform designed to assist cryptocurrency investors with personalized insights, educational resources, and robust risk management tools for informed trading decisions.
+Categories: Finance & Investment: Cryptocurrency Trading Platforms, AI-Driven Investment Tools; Education: Trading Courses, Investment Strategy Resources; Productivity: Market Analysis Tools, Risk Management Solutions
+Usage: Providing AI-powered trading insights, educational resources, and risk management for cryptocurrency trading
+Unique Features: Personalized trading insights across thousands of markets, comprehensive educational courses, real-time alerts
+Pros: Diverse analytical tools with advanced charting features, Real-time market updates and price alerts, Robust risk management tools for volatile markets
+Cons: Some concerns about platform authenticity and withdrawal issues, Limited external reviews make evaluation challenging
+Pricing: Not specified (research advised regarding fees)
+
+---
+
+Tool ID: solvrme-014
+Name: Solvr.me
+Description: Solvr.me is an AI-powered platform that connects users with subject matter experts for problem-solving and collaboration, offering quick advice and strategic insights across various industries.
+Categories: Productivity: Task Management, Collaboration Tools; Business: Professional Networking, Project Management; AI Chatbot: AI Assistants; Life Assistant: Personal Productivity, Interactive Planning
+Usage: Connecting users to expert advice for business, academic, or personal problem-solving
+Unique Features: Direct access to professionals, collaborative problem-solving tools, real-time expert responses
+Pros: Wide expert network across diverse fields, Quick response time with real-time solutions, Intuitive and user-friendly interface
+Cons: Expert quality may vary, Some consultations may require payment for premium access, Regional coverage may be limited in some areas
+Pricing: Not specified (basic access free with premium consultation options)
+2025-03-02 02:24:11,763 - INFO - =====================
+2025-03-02 02:24:11,763 - INFO - === LLM Input ===
+2025-03-02 02:24:11,763 - INFO - Question: I want to go on a trip , give best advisor tool
+2025-03-02 02:24:11,763 - INFO - Context: Tool ID: traveladvisorai-062
+Name: TravelAdvisor AI
+Description: TravelAdvisor AI is an AI-powered travel assistant that provides personalized travel recommendations, itinerary planning, and real-time alerts on travel disruptions, ensuring a smooth travel experience.
+Categories: Life Assistant: Travel Planning, Itinerary Management; Productivity: Personal Organization; Business: Travel Solutions
+Usage: Helping travelers plan trips efficiently and stay updated on travel conditions
+Unique Features: AI-driven itinerary generation and real-time travel disruption alerts
+Pros: Offers personalized travel recommendations based on user preferences, Generates detailed itineraries quickly, Provides real-time alerts on flight delays and travel disruptions
+Cons: May not cover all international destinations, Some advanced features require premium access, Dependent on the accuracy of real-time data feeds
+Pricing: Freemium with premium subscription options
+
+---
+
+Tool ID: eventspark-051
+Name: EventSpark
+Description: EventSpark is an AI-powered event planning tool that automates scheduling, guest list management, and real-time coordination to help organize events efficiently.
+Categories: Business: Event Management; Productivity: Scheduling and Coordination
+Usage: Streamlining event planning, registration, and on-site coordination
+Unique Features: AI-driven scheduling and real-time event updates
+Pros: Automates complex event planning tasks, Real-time coordination enhances event management, Customizable event templates available
+Cons: May require manual adjustments for niche events, Advanced features require premium access, Integration with some ticketing systems can be limited
+Pricing: Subscription-based with tiered plans
+
+---
+
+Tool ID: stylemaven-046
+Name: StyleMaven
+Description: StyleMaven is an AI-driven fashion recommendation and styling tool that curates personalized outfit suggestions, tracks fashion trends, and provides styling advice based on individual preferences.
+Categories: Design & Art: Fashion Tools, Visual Design; Life Assistant: Personal Styling
+Usage: Providing personalized fashion recommendations and styling advice
+Unique Features: AI-driven style analysis, trend tracking, and personalized outfit curation
+Pros: Delivers personalized outfit recommendations, Tracks current fashion trends in real time, Easy-to-use interface with visual inspiration
+Cons: May have limited options for niche fashion styles, Recommendations can be generic without user input, Premium styling advice requires a subscription
+Pricing: Freemium with premium upgrades
+
+---
+
+Tool ID: tradevectorai-012
+Name: TradeVector AI
+Description: TradeVector AI is an AI-powered trading platform designed to assist cryptocurrency investors with personalized insights, educational resources, and robust risk management tools for informed trading decisions.
+Categories: Finance & Investment: Cryptocurrency Trading Platforms, AI-Driven Investment Tools; Education: Trading Courses, Investment Strategy Resources; Productivity: Market Analysis Tools, Risk Management Solutions
+Usage: Providing AI-powered trading insights, educational resources, and risk management for cryptocurrency trading
+Unique Features: Personalized trading insights across thousands of markets, comprehensive educational courses, real-time alerts
+Pros: Diverse analytical tools with advanced charting features, Real-time market updates and price alerts, Robust risk management tools for volatile markets
+Cons: Some concerns about platform authenticity and withdrawal issues, Limited external reviews make evaluation challenging
+Pricing: Not specified (research advised regarding fees)
+
+---
+
+Tool ID: solvrme-014
+Name: Solvr.me
+Description: Solvr.me is an AI-powered platform that connects users with subject matter experts for problem-solving and collaboration, offering quick advice and strategic insights across various industries.
+Categories: Productivity: Task Management, Collaboration Tools; Business: Professional Networking, Project Management; AI Chatbot: AI Assistants; Life Assistant: Personal Productivity, Interactive Planning
+Usage: Connecting users to expert advice for business, academic, or personal problem-solving
+Unique Features: Direct access to professionals, collaborative problem-solving tools, real-time expert responses
+Pros: Wide expert network across diverse fields, Quick response time with real-time solutions, Intuitive and user-friendly interface
+Cons: Expert quality may vary, Some consultations may require payment for premium access, Regional coverage may be limited in some areas
+Pricing: Not specified (basic access free with premium consultation options)
+2025-03-02 02:24:11,763 - INFO - ================
+2025-03-02 02:24:15,837 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-02 02:24:24,585 - ERROR - Invalid JSON in response: <think>
+Alright, let's break down how I approached this task. The user wants to go on a trip and specifically asked for the best advisor tool. First, I looked at the provided tools and their descriptions.
+
+I started with TravelAdvisor AI. It seems like it offers personalized travel recommendations and real-time alerts, which directly address the need for a travel advisor. Then, EventSpark was next because it's great for event planning and automation. 
+
+StyleMaven didn't seem relevant since it's about fashion, not trips or events. TradeVector AI is more about trading, so that's out of scope. Solvr.me was on the edge; while it connects users with experts, I wasn't sure if its pricing fits the user's budget.
+
+I ranked them based on relevance and features. TravelAdvisor and EventSpark both fit perfectly, so they were top choices. StyleMaven and TradeVector didn't match, as did Solvr.me. 
+
+Finally, I structured the JSON output to include only the relevant tool IDs in order, ensuring compliance with the user's instructions.
+</think>
+
+{
+    "tool_id": ["traveladvisorai-062", "eventspark-051"],
+    "tools": [
+        {
+            "id": "traveladvisorai-062",
+            "name": "TravelAdvisor AI"
+            , "description": "TravelAdvisor AI is an AI-powered travel assistant that provides personalized travel recommendations, itinerary planning, and real-time alerts on travel disruptions, ensuring a smooth travel experience."
+        },
+        {
+            "id": "eventspark-051",
+            "name": "EventSpark"
+            , "description": "EventSpark is an AI-powered event planning tool that automates scheduling, guest list management, and real-time coordination to help organize events efficiently."
+        }
+    ]
+}
+2025-03-02 02:24:24,590 - ERROR - Error in query_tools: 500: Invalid response format from LLM
+2025-03-02 02:24:31,786 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 02:24:31,786 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 02:24:31,832 - INFO - Installing plugin inference into Pinecone
+2025-03-02 02:24:31,832 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 02:24:31,832 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 02:24:31,832 - INFO - Installing plugin inference into Pinecone
+2025-03-02 02:34:33,122 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 02:34:33,122 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 02:34:33,184 - INFO - Installing plugin inference into Pinecone
+2025-03-02 02:34:33,184 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 02:34:33,184 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 02:34:33,194 - INFO - Installing plugin inference into Pinecone
+2025-03-02 02:34:50,177 - INFO - Processing query: code generation tool
+2025-03-02 02:34:53,007 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 02:34:53,023 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 02:34:53,023 - INFO - Installing plugin inference into Pinecone
+2025-03-02 02:34:59,061 - INFO - Total vectors in index: 74
+2025-03-02 02:34:59,066 - INFO - Total vectors in store: 74
+2025-03-02 02:35:07,129 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 02:35:10,758 - INFO - === Document 1 ===
+2025-03-02 02:35:10,758 - INFO - Tool ID: codeassistpro-054
+2025-03-02 02:35:10,758 - INFO - Formatted doc: Tool ID: codeassistpro-054
+Name: CodeAssist Pro
+Description: CodeAssist Pro is an AI-enhanced coding assistant designed to help developers write, debug, and optimize code efficiently while supporting multiple programming languages.
+Categories: Code & IT: Code Generators, Debugging Tools, Developer Productivity
+Usage: Assisting developers in writing and debugging code more efficiently
+Unique Features: AI-driven code optimization and real-time error detection
+Pros: Provides real-time code suggestions and error detection, Supports multiple programming languages, Helps improve code quality and development speed
+Cons: May not catch all complex coding issues, Some features require integration with specific IDEs, Advanced debugging tools are available only in premium plans
+Pricing: Freemium with subscription-based premium features
+2025-03-02 02:35:10,758 - INFO - =====================
+2025-03-02 02:35:10,758 - INFO - === Document 2 ===
+2025-03-02 02:35:10,758 - INFO - Tool ID: iconme-023
+2025-03-02 02:35:10,767 - INFO - Formatted doc: Tool ID: iconme-023
+Name: Icon.me
+Description: Icon.me is an AI-driven platform that streamlines the ad creation process by combining the capabilities of ChatGPT and CapCut. It helps generate high-quality advertisements by analyzing video libraries, tagging scenes, and integrating scriptwriting, video editing, and creative analytics.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Creating effective digital advertisements by automating scriptwriting, video editing, and creative analytics
+Unique Features: Combines ChatGPT and CapCut functionalities, scene tagging from video libraries, and competitor ad spying
+Pros: Saves time by automating many aspects of ad creation, Comprehensive suite of integrated tools for video ads, Cost-efficient by replacing multiple expensive tools
+Cons: May have a learning curve to master all features, Dependency on AI might sometimes produce generic content, Limited advanced customization for niche requirements
+Pricing: Not specified (check official site for subscription details)
+2025-03-02 02:35:10,767 - INFO - =====================
+2025-03-02 02:35:10,768 - INFO - === Document 3 ===
+2025-03-02 02:35:10,769 - INFO - Tool ID: lmkit-026
+2025-03-02 02:35:10,769 - INFO - Formatted doc: Tool ID: lmkit-026
+Name: LM-Kit
+Description: LM-Kit is a comprehensive toolkit that allows developers to integrate generative AI capabilities into .NET applications easily. It streamlines the addition of advanced AI features without extensive setup or complex integration.
+Categories: AI Chatbot: AI Integration Tools, Generative AI Assistants; Life Assistant: Software Enhancement, AI-Driven Features; Design & Art: AI Toolkits, Developer Resources; Text & Writing: Documentation, AI Implementation Guides; Education: AI Learning Resources, Developer Tutorials
+Usage: Enhancing .NET applications with advanced generative AI features quickly and efficiently
+Unique Features: Easy integration into .NET, unlimited free trial, comprehensive developer documentation
+Pros: Seamless integration with .NET applications, Advanced AI features enhance application functionality, Free trial with unlimited access for exploration, Comprehensive documentation to get started quickly
+Cons: Currently limited to .NET applications, Effectiveness relies on the quality of underlying AI models, Some learning curve associated with the documentation
+Pricing: Not specified (free trial available, then subscription-based)
+2025-03-02 02:35:10,772 - INFO - =====================
+2025-03-02 02:35:10,773 - INFO - === Document 4 ===
+2025-03-02 02:35:10,774 - INFO - Tool ID: musicmakerai-049
+2025-03-02 02:35:10,774 - INFO - Formatted doc: Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+2025-03-02 02:35:10,776 - INFO - =====================
+2025-03-02 02:35:10,777 - INFO - === Document 5 ===
+2025-03-02 02:35:10,777 - INFO - Tool ID: extructai-008
+2025-03-02 02:35:10,777 - INFO - Formatted doc: Tool ID: extructai-008
+Name: Extruct.ai
+Description: Extruct.ai is an AI-powered data extraction platform that converts unstructured documents such as PDFs, images, and scans into structured formats like JSON, CSV, or Excel using advanced machine learning.
+Categories: Business: Document Automation, Data Extraction Tools; Productivity: Workflow Automation, Data Processing; Code & IT: API Tools, Data Conversion Solutions; AI Detector: Document Analysis, Text Recognition
+Usage: Automating the extraction of structured data from unstructured documents for further analysis or integration
+Unique Features: Customizable extraction models, multi-format support, API integration for seamless workflow
+Pros: Handles complex documents including tables and handwritten text, Supports multiple file formats, Reduces manual data entry significantly
+Cons: Advanced features may require premium pricing, Customization options can be overwhelming for non-technical users
+Pricing: Not specified (assumed subscription-based)
+2025-03-02 02:35:10,777 - INFO - =====================
+2025-03-02 02:35:10,780 - INFO - === Complete Context ===
+2025-03-02 02:35:10,780 - INFO - Tool ID: codeassistpro-054
+Name: CodeAssist Pro
+Description: CodeAssist Pro is an AI-enhanced coding assistant designed to help developers write, debug, and optimize code efficiently while supporting multiple programming languages.
+Categories: Code & IT: Code Generators, Debugging Tools, Developer Productivity
+Usage: Assisting developers in writing and debugging code more efficiently
+Unique Features: AI-driven code optimization and real-time error detection
+Pros: Provides real-time code suggestions and error detection, Supports multiple programming languages, Helps improve code quality and development speed
+Cons: May not catch all complex coding issues, Some features require integration with specific IDEs, Advanced debugging tools are available only in premium plans
+Pricing: Freemium with subscription-based premium features
+
+---
+
+Tool ID: iconme-023
+Name: Icon.me
+Description: Icon.me is an AI-driven platform that streamlines the ad creation process by combining the capabilities of ChatGPT and CapCut. It helps generate high-quality advertisements by analyzing video libraries, tagging scenes, and integrating scriptwriting, video editing, and creative analytics.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Creating effective digital advertisements by automating scriptwriting, video editing, and creative analytics
+Unique Features: Combines ChatGPT and CapCut functionalities, scene tagging from video libraries, and competitor ad spying
+Pros: Saves time by automating many aspects of ad creation, Comprehensive suite of integrated tools for video ads, Cost-efficient by replacing multiple expensive tools
+Cons: May have a learning curve to master all features, Dependency on AI might sometimes produce generic content, Limited advanced customization for niche requirements
+Pricing: Not specified (check official site for subscription details)
+
+---
+
+Tool ID: lmkit-026
+Name: LM-Kit
+Description: LM-Kit is a comprehensive toolkit that allows developers to integrate generative AI capabilities into .NET applications easily. It streamlines the addition of advanced AI features without extensive setup or complex integration.
+Categories: AI Chatbot: AI Integration Tools, Generative AI Assistants; Life Assistant: Software Enhancement, AI-Driven Features; Design & Art: AI Toolkits, Developer Resources; Text & Writing: Documentation, AI Implementation Guides; Education: AI Learning Resources, Developer Tutorials
+Usage: Enhancing .NET applications with advanced generative AI features quickly and efficiently
+Unique Features: Easy integration into .NET, unlimited free trial, comprehensive developer documentation
+Pros: Seamless integration with .NET applications, Advanced AI features enhance application functionality, Free trial with unlimited access for exploration, Comprehensive documentation to get started quickly
+Cons: Currently limited to .NET applications, Effectiveness relies on the quality of underlying AI models, Some learning curve associated with the documentation
+Pricing: Not specified (free trial available, then subscription-based)
+
+---
+
+Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+
+---
+
+Tool ID: extructai-008
+Name: Extruct.ai
+Description: Extruct.ai is an AI-powered data extraction platform that converts unstructured documents such as PDFs, images, and scans into structured formats like JSON, CSV, or Excel using advanced machine learning.
+Categories: Business: Document Automation, Data Extraction Tools; Productivity: Workflow Automation, Data Processing; Code & IT: API Tools, Data Conversion Solutions; AI Detector: Document Analysis, Text Recognition
+Usage: Automating the extraction of structured data from unstructured documents for further analysis or integration
+Unique Features: Customizable extraction models, multi-format support, API integration for seamless workflow
+Pros: Handles complex documents including tables and handwritten text, Supports multiple file formats, Reduces manual data entry significantly
+Cons: Advanced features may require premium pricing, Customization options can be overwhelming for non-technical users
+Pricing: Not specified (assumed subscription-based)
+2025-03-02 02:35:10,786 - INFO - =====================
+2025-03-02 02:35:10,786 - INFO - === LLM Input ===
+2025-03-02 02:35:10,786 - INFO - Question: code generation tool
+2025-03-02 02:35:10,788 - INFO - Context: Tool ID: codeassistpro-054
+Name: CodeAssist Pro
+Description: CodeAssist Pro is an AI-enhanced coding assistant designed to help developers write, debug, and optimize code efficiently while supporting multiple programming languages.
+Categories: Code & IT: Code Generators, Debugging Tools, Developer Productivity
+Usage: Assisting developers in writing and debugging code more efficiently
+Unique Features: AI-driven code optimization and real-time error detection
+Pros: Provides real-time code suggestions and error detection, Supports multiple programming languages, Helps improve code quality and development speed
+Cons: May not catch all complex coding issues, Some features require integration with specific IDEs, Advanced debugging tools are available only in premium plans
+Pricing: Freemium with subscription-based premium features
+
+---
+
+Tool ID: iconme-023
+Name: Icon.me
+Description: Icon.me is an AI-driven platform that streamlines the ad creation process by combining the capabilities of ChatGPT and CapCut. It helps generate high-quality advertisements by analyzing video libraries, tagging scenes, and integrating scriptwriting, video editing, and creative analytics.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Creating effective digital advertisements by automating scriptwriting, video editing, and creative analytics
+Unique Features: Combines ChatGPT and CapCut functionalities, scene tagging from video libraries, and competitor ad spying
+Pros: Saves time by automating many aspects of ad creation, Comprehensive suite of integrated tools for video ads, Cost-efficient by replacing multiple expensive tools
+Cons: May have a learning curve to master all features, Dependency on AI might sometimes produce generic content, Limited advanced customization for niche requirements
+Pricing: Not specified (check official site for subscription details)
+
+---
+
+Tool ID: lmkit-026
+Name: LM-Kit
+Description: LM-Kit is a comprehensive toolkit that allows developers to integrate generative AI capabilities into .NET applications easily. It streamlines the addition of advanced AI features without extensive setup or complex integration.
+Categories: AI Chatbot: AI Integration Tools, Generative AI Assistants; Life Assistant: Software Enhancement, AI-Driven Features; Design & Art: AI Toolkits, Developer Resources; Text & Writing: Documentation, AI Implementation Guides; Education: AI Learning Resources, Developer Tutorials
+Usage: Enhancing .NET applications with advanced generative AI features quickly and efficiently
+Unique Features: Easy integration into .NET, unlimited free trial, comprehensive developer documentation
+Pros: Seamless integration with .NET applications, Advanced AI features enhance application functionality, Free trial with unlimited access for exploration, Comprehensive documentation to get started quickly
+Cons: Currently limited to .NET applications, Effectiveness relies on the quality of underlying AI models, Some learning curve associated with the documentation
+Pricing: Not specified (free trial available, then subscription-based)
+
+---
+
+Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+
+---
+
+Tool ID: extructai-008
+Name: Extruct.ai
+Description: Extruct.ai is an AI-powered data extraction platform that converts unstructured documents such as PDFs, images, and scans into structured formats like JSON, CSV, or Excel using advanced machine learning.
+Categories: Business: Document Automation, Data Extraction Tools; Productivity: Workflow Automation, Data Processing; Code & IT: API Tools, Data Conversion Solutions; AI Detector: Document Analysis, Text Recognition
+Usage: Automating the extraction of structured data from unstructured documents for further analysis or integration
+Unique Features: Customizable extraction models, multi-format support, API integration for seamless workflow
+Pros: Handles complex documents including tables and handwritten text, Supports multiple file formats, Reduces manual data entry significantly
+Cons: Advanced features may require premium pricing, Customization options can be overwhelming for non-technical users
+Pricing: Not specified (assumed subscription-based)
+2025-03-02 02:35:10,792 - INFO - ================
+2025-03-02 02:35:15,054 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-02 02:35:24,513 - INFO - Cleaned response: {
+  "tool_id": [
+    "codeassistpro-054"
+  ],
+  "tools": [
+    {
+      "id": "codeassistpro-054",
+      "name": "CodeAssist Pro",
+      "description": "CodeAssist Pro is an AI-enhanced coding assistant designed to help developers write, debug, and optimize code efficiently while supporting multiple programming languages."
+    }
+  ]
+}

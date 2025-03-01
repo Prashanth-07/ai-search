@@ -14,6 +14,7 @@ import json
 import logging
 from dotenv import load_dotenv
 from fastapi.middleware.cors import CORSMiddleware
+from requests import request
 
 # Set up logging
 logging.basicConfig(
@@ -358,11 +359,23 @@ async def root():
 async def health_check():
     """Check if API and Pinecone connection are healthy"""
     try:
+        # Get the model choice from the request header
+        model_choice = request.headers.get("MODEL_CHOICE", "DEV_MODEL")
+        
+        # Use the appropriate environment variable based on the header
+        if model_choice == "PROD_MODEL":
+            current_model = os.getenv("PROD_MODEL", "deepseek-r1:7b")
+        else:
+            current_model = os.getenv("DEV_MODEL", "deepseek-r1:1.5b")
+        
+        # Use current_model for your operations...
+        
         # Verify Pinecone connection
         _ = get_or_create_index()
         return {
             "status": "healthy",
             "api_version": "1.0",
+            "model_in_use": current_model,
             "timestamp": datetime.now().isoformat()
         }
     except Exception as e:
@@ -371,6 +384,7 @@ async def health_check():
             detail=f"Service unhealthy: {str(e)}"
         )
     
+
 async def check_duplicate_tool(vector_store, tool: Tool) -> bool:
     """
     Check if a tool with the same tool_id already exists.
