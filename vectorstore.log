@@ -3203,3 +3203,9 @@ Pricing: Subscription-based with enterprise options
 }
 
 2025-02-28 16:45:29,696 - ERROR - Error in query_tools: 500: Invalid response format from LLM
+2025-03-01 00:09:31,174 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-01 00:09:31,175 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-01 00:09:31,194 - INFO - Installing plugin inference into Pinecone
+2025-03-01 00:09:31,195 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-01 00:09:31,196 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-01 00:09:31,196 - INFO - Installing plugin inference into Pinecone

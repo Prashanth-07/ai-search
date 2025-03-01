@@ -196,10 +196,15 @@ def create_rag_chain(retriever):
     - Only include relevant tools based on the user query
     - Ensure the most relevant tools appear first in the ranking
     """
-
+    # Get the model based on environment variable
+    environment = os.getenv("ENVIRONMENT", "DEV")
+    if environment == "DEV":
+        current_model = os.getenv("DEV_MODEL", "deepseek-r1:1.5b")
+    else:
+        current_model = os.getenv("PROD_MODEL", "deepseek-r1:7b")
     model = ChatOllama(
-        model="deepseek-r1:1.5b",
-        base_url="http://localhost:11434",
+        model=current_model,
+        base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"),
         top_p=0.9,
         temperature=0.3,
         presence_penalty=0.2,
