@@ -3845,3 +3845,1479 @@ Pricing: Not specified (assumed subscription-based)
     }
   ]
 }
+2025-03-02 02:56:37,208 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 02:56:37,208 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 02:56:37,221 - INFO - Installing plugin inference into Pinecone
+2025-03-02 02:56:37,223 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 02:56:37,223 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 02:56:37,223 - INFO - Installing plugin inference into Pinecone
+2025-03-02 03:02:29,171 - INFO - Processing query: Dance learning tool
+2025-03-02 03:02:29,678 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 03:02:29,678 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 03:02:29,678 - INFO - Installing plugin inference into Pinecone
+2025-03-02 03:02:32,766 - INFO - Total vectors in index: 74
+2025-03-02 03:02:32,766 - INFO - Total vectors in store: 74
+2025-03-02 03:02:35,982 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 03:02:38,144 - INFO - === Document 1 ===
+2025-03-02 03:02:38,144 - INFO - Tool ID: mykaraokevideo-015
+2025-03-02 03:02:38,144 - INFO - Formatted doc: Tool ID: mykaraokevideo-015
+Name: MyKaraoke.Video
+Description: MyKaraoke.Video is an interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects.
+Categories: Entertainment: Karaoke, Music Streaming; Video: Video Recording, Video Editing Tools; Social & Community: Online Communities, Collaborative Platforms; Life Assistant: Virtual Events, Interactive Experiences
+Usage: Recording and sharing karaoke performances, hosting virtual karaoke parties, and engaging with a global karaoke community
+Unique Features: Customizable video backgrounds, real-time vocal effects, collaborative duet features
+Pros: Vast selection of songs across genres and languages, Real-time vocal enhancements improve the singing experience, Collaborative features enable duets and group performances, User-friendly interface with customizable backgrounds
+Cons: Limited offline functionality for mobile users, Some premium songs and features require a subscription, Occasional latency during high-traffic periods
+Pricing: Not specified (free access with premium subscription options)
+2025-03-02 03:02:38,144 - INFO - =====================
+2025-03-02 03:02:38,144 - INFO - === Document 2 ===
+2025-03-02 03:02:38,144 - INFO - Tool ID: tradevectorai-012
+2025-03-02 03:02:38,144 - INFO - Formatted doc: Tool ID: tradevectorai-012
+Name: TradeVector AI
+Description: TradeVector AI is an AI-powered trading platform designed to assist cryptocurrency investors with personalized insights, educational resources, and robust risk management tools for informed trading decisions.
+Categories: Finance & Investment: Cryptocurrency Trading Platforms, AI-Driven Investment Tools; Education: Trading Courses, Investment Strategy Resources; Productivity: Market Analysis Tools, Risk Management Solutions
+Usage: Providing AI-powered trading insights, educational resources, and risk management for cryptocurrency trading
+Unique Features: Personalized trading insights across thousands of markets, comprehensive educational courses, real-time alerts
+Pros: Diverse analytical tools with advanced charting features, Real-time market updates and price alerts, Robust risk management tools for volatile markets
+Cons: Some concerns about platform authenticity and withdrawal issues, Limited external reviews make evaluation challenging
+Pricing: Not specified (research advised regarding fees)
+2025-03-02 03:02:38,144 - INFO - =====================
+2025-03-02 03:02:38,144 - INFO - === Document 3 ===
+2025-03-02 03:02:38,144 - INFO - Tool ID: fitplanai-048
+2025-03-02 03:02:38,144 - INFO - Formatted doc: Tool ID: fitplanai-048
+Name: FitPlan AI
+Description: FitPlan AI is an AI-powered fitness planning and tracking tool that creates personalized workout routines, tracks progress, and provides real-time coaching tips to help users achieve their fitness goals.
+Categories: Life Assistant: Fitness Tracking, Workout Planning; Productivity: Personal Health Management
+Usage: Helping users achieve fitness goals through personalized workout routines and real-time progress tracking
+Unique Features: AI-driven workout customization, integration with wearables, real-time coaching tips
+Pros: Generates customized workout plans based on fitness levels, Provides real-time coaching and progress tracking, Integrates with wearable devices for comprehensive data collection
+Cons: Accuracy depends on the quality of input data from wearables, Advanced features may require a premium plan, Not all workout types are supported
+Pricing: Freemium with subscription-based premium features
+2025-03-02 03:02:38,144 - INFO - =====================
+2025-03-02 03:02:38,144 - INFO - === Document 4 ===
+2025-03-02 03:02:38,144 - INFO - Tool ID: langbuddyai-019
+2025-03-02 03:02:38,144 - INFO - Formatted doc: Tool ID: langbuddyai-019
+Name: Langbuddy.ai
+Description: Langbuddy.ai is an AI-powered language learning platform that provides tools such as instant translations, kanji analysis for Japanese, and interactive chat-based learning to create a personalized language learning experience.
+Categories: Education: Language Learning, AI Tutoring, Vocabulary Building; AI Chatbot: Language Practice, Conversational Learning; Text & Writing: Translation Tools, Language Analysis; Productivity: Learning Tools
+Usage: Improving language skills through interactive AI-driven translation, analysis, and conversational practice
+Unique Features: Real-time AI translation and analysis, specialized kanji learning tools, chat-based language practice
+Pros: Multiple avenues for learning including chat-based practice, Detailed language breakdowns, especially for Japanese kanji, Interactive practice enhances conversational skills, Accessible via Chrome extension and web-based chat
+Cons: Quality of AI translations can vary, Heavy reliance on AI might limit independent language development
+Pricing: Not specified (assumed freemium with premium upgrades)
+2025-03-02 03:02:38,144 - INFO - =====================
+2025-03-02 03:02:38,144 - INFO - === Document 5 ===
+2025-03-02 03:02:38,144 - INFO - Tool ID: eduspark-039
+2025-03-02 03:02:38,144 - INFO - Formatted doc: Tool ID: eduspark-039
+Name: EduSpark
+Description: EduSpark is an AI-powered tutoring platform that offers personalized learning paths, interactive lessons, and real-time feedback to help students excel academically.
+Categories: Education: Tutoring Platforms, Adaptive Learning; Productivity: Study Tools
+Usage: Enhancing academic performance through personalized tutoring and interactive learning
+Unique Features: Real-time AI feedback, adaptive learning algorithms, multi-device access
+Pros: Customized learning paths tailored to individual needs, Interactive lessons with real-time feedback, Accessible on multiple devices
+Cons: May require premium subscription for advanced features, Not all subjects are covered in-depth, Dependent on internet connectivity
+Pricing: Freemium with premium upgrades
+2025-03-02 03:02:38,144 - INFO - =====================
+2025-03-02 03:02:38,144 - INFO - === Complete Context ===
+2025-03-02 03:02:38,144 - INFO - Tool ID: mykaraokevideo-015
+Name: MyKaraoke.Video
+Description: MyKaraoke.Video is an interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects.
+Categories: Entertainment: Karaoke, Music Streaming; Video: Video Recording, Video Editing Tools; Social & Community: Online Communities, Collaborative Platforms; Life Assistant: Virtual Events, Interactive Experiences
+Usage: Recording and sharing karaoke performances, hosting virtual karaoke parties, and engaging with a global karaoke community
+Unique Features: Customizable video backgrounds, real-time vocal effects, collaborative duet features
+Pros: Vast selection of songs across genres and languages, Real-time vocal enhancements improve the singing experience, Collaborative features enable duets and group performances, User-friendly interface with customizable backgrounds
+Cons: Limited offline functionality for mobile users, Some premium songs and features require a subscription, Occasional latency during high-traffic periods
+Pricing: Not specified (free access with premium subscription options)
+
+---
+
+Tool ID: tradevectorai-012
+Name: TradeVector AI
+Description: TradeVector AI is an AI-powered trading platform designed to assist cryptocurrency investors with personalized insights, educational resources, and robust risk management tools for informed trading decisions.
+Categories: Finance & Investment: Cryptocurrency Trading Platforms, AI-Driven Investment Tools; Education: Trading Courses, Investment Strategy Resources; Productivity: Market Analysis Tools, Risk Management Solutions
+Usage: Providing AI-powered trading insights, educational resources, and risk management for cryptocurrency trading
+Unique Features: Personalized trading insights across thousands of markets, comprehensive educational courses, real-time alerts
+Pros: Diverse analytical tools with advanced charting features, Real-time market updates and price alerts, Robust risk management tools for volatile markets
+Cons: Some concerns about platform authenticity and withdrawal issues, Limited external reviews make evaluation challenging
+Pricing: Not specified (research advised regarding fees)
+
+---
+
+Tool ID: fitplanai-048
+Name: FitPlan AI
+Description: FitPlan AI is an AI-powered fitness planning and tracking tool that creates personalized workout routines, tracks progress, and provides real-time coaching tips to help users achieve their fitness goals.
+Categories: Life Assistant: Fitness Tracking, Workout Planning; Productivity: Personal Health Management
+Usage: Helping users achieve fitness goals through personalized workout routines and real-time progress tracking
+Unique Features: AI-driven workout customization, integration with wearables, real-time coaching tips
+Pros: Generates customized workout plans based on fitness levels, Provides real-time coaching and progress tracking, Integrates with wearable devices for comprehensive data collection
+Cons: Accuracy depends on the quality of input data from wearables, Advanced features may require a premium plan, Not all workout types are supported
+Pricing: Freemium with subscription-based premium features
+
+---
+
+Tool ID: langbuddyai-019
+Name: Langbuddy.ai
+Description: Langbuddy.ai is an AI-powered language learning platform that provides tools such as instant translations, kanji analysis for Japanese, and interactive chat-based learning to create a personalized language learning experience.
+Categories: Education: Language Learning, AI Tutoring, Vocabulary Building; AI Chatbot: Language Practice, Conversational Learning; Text & Writing: Translation Tools, Language Analysis; Productivity: Learning Tools
+Usage: Improving language skills through interactive AI-driven translation, analysis, and conversational practice
+Unique Features: Real-time AI translation and analysis, specialized kanji learning tools, chat-based language practice
+Pros: Multiple avenues for learning including chat-based practice, Detailed language breakdowns, especially for Japanese kanji, Interactive practice enhances conversational skills, Accessible via Chrome extension and web-based chat
+Cons: Quality of AI translations can vary, Heavy reliance on AI might limit independent language development
+Pricing: Not specified (assumed freemium with premium upgrades)
+
+---
+
+Tool ID: eduspark-039
+Name: EduSpark
+Description: EduSpark is an AI-powered tutoring platform that offers personalized learning paths, interactive lessons, and real-time feedback to help students excel academically.
+Categories: Education: Tutoring Platforms, Adaptive Learning; Productivity: Study Tools
+Usage: Enhancing academic performance through personalized tutoring and interactive learning
+Unique Features: Real-time AI feedback, adaptive learning algorithms, multi-device access
+Pros: Customized learning paths tailored to individual needs, Interactive lessons with real-time feedback, Accessible on multiple devices
+Cons: May require premium subscription for advanced features, Not all subjects are covered in-depth, Dependent on internet connectivity
+Pricing: Freemium with premium upgrades
+2025-03-02 03:02:38,144 - INFO - =====================
+2025-03-02 03:02:38,144 - INFO - === LLM Input ===
+2025-03-02 03:02:38,144 - INFO - Question: Dance learning tool
+2025-03-02 03:02:38,144 - INFO - Context: Tool ID: mykaraokevideo-015
+Name: MyKaraoke.Video
+Description: MyKaraoke.Video is an interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects.
+Categories: Entertainment: Karaoke, Music Streaming; Video: Video Recording, Video Editing Tools; Social & Community: Online Communities, Collaborative Platforms; Life Assistant: Virtual Events, Interactive Experiences
+Usage: Recording and sharing karaoke performances, hosting virtual karaoke parties, and engaging with a global karaoke community
+Unique Features: Customizable video backgrounds, real-time vocal effects, collaborative duet features
+Pros: Vast selection of songs across genres and languages, Real-time vocal enhancements improve the singing experience, Collaborative features enable duets and group performances, User-friendly interface with customizable backgrounds
+Cons: Limited offline functionality for mobile users, Some premium songs and features require a subscription, Occasional latency during high-traffic periods
+Pricing: Not specified (free access with premium subscription options)
+
+---
+
+Tool ID: tradevectorai-012
+Name: TradeVector AI
+Description: TradeVector AI is an AI-powered trading platform designed to assist cryptocurrency investors with personalized insights, educational resources, and robust risk management tools for informed trading decisions.
+Categories: Finance & Investment: Cryptocurrency Trading Platforms, AI-Driven Investment Tools; Education: Trading Courses, Investment Strategy Resources; Productivity: Market Analysis Tools, Risk Management Solutions
+Usage: Providing AI-powered trading insights, educational resources, and risk management for cryptocurrency trading
+Unique Features: Personalized trading insights across thousands of markets, comprehensive educational courses, real-time alerts
+Pros: Diverse analytical tools with advanced charting features, Real-time market updates and price alerts, Robust risk management tools for volatile markets
+Cons: Some concerns about platform authenticity and withdrawal issues, Limited external reviews make evaluation challenging
+Pricing: Not specified (research advised regarding fees)
+
+---
+
+Tool ID: fitplanai-048
+Name: FitPlan AI
+Description: FitPlan AI is an AI-powered fitness planning and tracking tool that creates personalized workout routines, tracks progress, and provides real-time coaching tips to help users achieve their fitness goals.
+Categories: Life Assistant: Fitness Tracking, Workout Planning; Productivity: Personal Health Management
+Usage: Helping users achieve fitness goals through personalized workout routines and real-time progress tracking
+Unique Features: AI-driven workout customization, integration with wearables, real-time coaching tips
+Pros: Generates customized workout plans based on fitness levels, Provides real-time coaching and progress tracking, Integrates with wearable devices for comprehensive data collection
+Cons: Accuracy depends on the quality of input data from wearables, Advanced features may require a premium plan, Not all workout types are supported
+Pricing: Freemium with subscription-based premium features
+
+---
+
+Tool ID: langbuddyai-019
+Name: Langbuddy.ai
+Description: Langbuddy.ai is an AI-powered language learning platform that provides tools such as instant translations, kanji analysis for Japanese, and interactive chat-based learning to create a personalized language learning experience.
+Categories: Education: Language Learning, AI Tutoring, Vocabulary Building; AI Chatbot: Language Practice, Conversational Learning; Text & Writing: Translation Tools, Language Analysis; Productivity: Learning Tools
+Usage: Improving language skills through interactive AI-driven translation, analysis, and conversational practice
+Unique Features: Real-time AI translation and analysis, specialized kanji learning tools, chat-based language practice
+Pros: Multiple avenues for learning including chat-based practice, Detailed language breakdowns, especially for Japanese kanji, Interactive practice enhances conversational skills, Accessible via Chrome extension and web-based chat
+Cons: Quality of AI translations can vary, Heavy reliance on AI might limit independent language development
+Pricing: Not specified (assumed freemium with premium upgrades)
+
+---
+
+Tool ID: eduspark-039
+Name: EduSpark
+Description: EduSpark is an AI-powered tutoring platform that offers personalized learning paths, interactive lessons, and real-time feedback to help students excel academically.
+Categories: Education: Tutoring Platforms, Adaptive Learning; Productivity: Study Tools
+Usage: Enhancing academic performance through personalized tutoring and interactive learning
+Unique Features: Real-time AI feedback, adaptive learning algorithms, multi-device access
+Pros: Customized learning paths tailored to individual needs, Interactive lessons with real-time feedback, Accessible on multiple devices
+Cons: May require premium subscription for advanced features, Not all subjects are covered in-depth, Dependent on internet connectivity
+Pricing: Freemium with premium upgrades
+2025-03-02 03:02:38,144 - INFO - ================
+2025-03-02 03:02:40,072 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-02 03:02:46,159 - INFO - Cleaned response: {
+  "tool_id": [
+    "mykaraokevideo-015"
+  ],
+  "tools": [
+    {
+      "id": "mykaraokevideo-015",
+      "name": "MyKaraoke.Video",
+      "description": "An interactive platform that lets users sing, record, and share karaoke performances online."
+    }
+  ]
+}
+2025-03-02 03:06:15,236 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 03:06:15,236 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 03:06:15,246 - INFO - Installing plugin inference into Pinecone
+2025-03-02 03:06:15,247 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 03:06:15,247 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 03:06:15,247 - INFO - Installing plugin inference into Pinecone
+2025-03-02 03:06:36,983 - INFO - Health check started
+2025-03-02 03:06:36,983 - INFO - Checking environment variables
+2025-03-02 03:06:36,983 - INFO - Initializing Pinecone client
+2025-03-02 03:06:36,983 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 03:06:36,983 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 03:06:36,983 - INFO - Installing plugin inference into Pinecone
+2025-03-02 03:06:36,983 - INFO - Verifying Pinecone connection
+2025-03-02 03:06:38,679 - INFO - Health check completed successfully
+2025-03-02 03:06:57,046 - INFO - Processing query: I want to learn singing
+2025-03-02 03:06:57,643 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 03:06:57,643 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 03:06:57,643 - INFO - Installing plugin inference into Pinecone
+2025-03-02 03:07:00,532 - INFO - Total vectors in index: 74
+2025-03-02 03:07:00,532 - INFO - Total vectors in store: 74
+2025-03-02 03:07:03,234 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 03:07:05,378 - INFO - === Document 1 ===
+2025-03-02 03:07:05,378 - INFO - Tool ID: mykaraokevideo-015
+2025-03-02 03:07:05,378 - INFO - Formatted doc: Tool ID: mykaraokevideo-015
+Name: MyKaraoke.Video
+Description: MyKaraoke.Video is an interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects.
+Categories: Entertainment: Karaoke, Music Streaming; Video: Video Recording, Video Editing Tools; Social & Community: Online Communities, Collaborative Platforms; Life Assistant: Virtual Events, Interactive Experiences
+Usage: Recording and sharing karaoke performances, hosting virtual karaoke parties, and engaging with a global karaoke community
+Unique Features: Customizable video backgrounds, real-time vocal effects, collaborative duet features
+Pros: Vast selection of songs across genres and languages, Real-time vocal enhancements improve the singing experience, Collaborative features enable duets and group performances, User-friendly interface with customizable backgrounds
+Cons: Limited offline functionality for mobile users, Some premium songs and features require a subscription, Occasional latency during high-traffic periods
+Pricing: Not specified (free access with premium subscription options)
+2025-03-02 03:07:05,378 - INFO - =====================
+2025-03-02 03:07:05,378 - INFO - === Document 2 ===
+2025-03-02 03:07:05,378 - INFO - Tool ID: studybuddy-053
+2025-03-02 03:07:05,378 - INFO - Formatted doc: Tool ID: studybuddy-053
+Name: StudyBuddy
+Description: StudyBuddy is an AI-powered academic tool offering personalized study plans, resource recommendations, and real-time tutoring to help students excel in their studies.
+Categories: Education: Tutoring Platforms, Study Tools; Productivity: Learning Assistance
+Usage: Enhancing academic performance through personalized study support and resource recommendations
+Unique Features: AI-driven personalized tutoring and adaptive learning paths
+Pros: Personalized study plans tailored to individual needs, Access to a vast library of educational resources, Real-time tutoring support enhances learning
+Cons: May not cover all subjects in depth, Advanced features require a premium subscription, User experience can vary based on subject matter
+Pricing: Freemium with premium subscription options
+2025-03-02 03:07:05,378 - INFO - =====================
+2025-03-02 03:07:05,378 - INFO - === Document 3 ===
+2025-03-02 03:07:05,378 - INFO - Tool ID: musicmakerai-049
+2025-03-02 03:07:05,378 - INFO - Formatted doc: Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+2025-03-02 03:07:05,378 - INFO - =====================
+2025-03-02 03:07:05,378 - INFO - === Document 4 ===
+2025-03-02 03:07:05,378 - INFO - Tool ID: askingtips-022
+2025-03-02 03:07:05,378 - INFO - Formatted doc: Tool ID: askingtips-022
+Name: AskingTips
+Description: AskingTips is a comprehensive platform offering a suite of AI tools for content creation, image generation, audio production, transcription, and digital marketing solutions. It also supports educational content creation and customer support enhancements.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Enhancing digital marketing, educational content creation, and customer support through a variety of AI-driven tools
+Unique Features: Comprehensive toolkit covering content, image, and audio creation with SEO and educational support
+Pros: Wide array of AI tools for multiple creative and marketing needs, SEO optimization features to improve content rankings, Useful for educators with explanation and question generation tools
+Cons: Data privacy concerns due to third-party service integrations, Dependency on external providers may affect reliability, Limited customization in some tools
+Pricing: Not specified (assumed freemium with premium options)
+2025-03-02 03:07:05,378 - INFO - =====================
+2025-03-02 03:07:05,378 - INFO - === Document 5 ===
+2025-03-02 03:07:05,378 - INFO - Tool ID: langbuddyai-019
+2025-03-02 03:07:05,378 - INFO - Formatted doc: Tool ID: langbuddyai-019
+Name: Langbuddy.ai
+Description: Langbuddy.ai is an AI-powered language learning platform that provides tools such as instant translations, kanji analysis for Japanese, and interactive chat-based learning to create a personalized language learning experience.
+Categories: Education: Language Learning, AI Tutoring, Vocabulary Building; AI Chatbot: Language Practice, Conversational Learning; Text & Writing: Translation Tools, Language Analysis; Productivity: Learning Tools
+Usage: Improving language skills through interactive AI-driven translation, analysis, and conversational practice
+Unique Features: Real-time AI translation and analysis, specialized kanji learning tools, chat-based language practice
+Pros: Multiple avenues for learning including chat-based practice, Detailed language breakdowns, especially for Japanese kanji, Interactive practice enhances conversational skills, Accessible via Chrome extension and web-based chat
+Cons: Quality of AI translations can vary, Heavy reliance on AI might limit independent language development
+Pricing: Not specified (assumed freemium with premium upgrades)
+2025-03-02 03:07:05,378 - INFO - =====================
+2025-03-02 03:07:05,378 - INFO - === Complete Context ===
+2025-03-02 03:07:05,378 - INFO - Tool ID: mykaraokevideo-015
+Name: MyKaraoke.Video
+Description: MyKaraoke.Video is an interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects.
+Categories: Entertainment: Karaoke, Music Streaming; Video: Video Recording, Video Editing Tools; Social & Community: Online Communities, Collaborative Platforms; Life Assistant: Virtual Events, Interactive Experiences
+Usage: Recording and sharing karaoke performances, hosting virtual karaoke parties, and engaging with a global karaoke community
+Unique Features: Customizable video backgrounds, real-time vocal effects, collaborative duet features
+Pros: Vast selection of songs across genres and languages, Real-time vocal enhancements improve the singing experience, Collaborative features enable duets and group performances, User-friendly interface with customizable backgrounds
+Cons: Limited offline functionality for mobile users, Some premium songs and features require a subscription, Occasional latency during high-traffic periods
+Pricing: Not specified (free access with premium subscription options)
+
+---
+
+Tool ID: studybuddy-053
+Name: StudyBuddy
+Description: StudyBuddy is an AI-powered academic tool offering personalized study plans, resource recommendations, and real-time tutoring to help students excel in their studies.
+Categories: Education: Tutoring Platforms, Study Tools; Productivity: Learning Assistance
+Usage: Enhancing academic performance through personalized study support and resource recommendations
+Unique Features: AI-driven personalized tutoring and adaptive learning paths
+Pros: Personalized study plans tailored to individual needs, Access to a vast library of educational resources, Real-time tutoring support enhances learning
+Cons: May not cover all subjects in depth, Advanced features require a premium subscription, User experience can vary based on subject matter
+Pricing: Freemium with premium subscription options
+
+---
+
+Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+
+---
+
+Tool ID: askingtips-022
+Name: AskingTips
+Description: AskingTips is a comprehensive platform offering a suite of AI tools for content creation, image generation, audio production, transcription, and digital marketing solutions. It also supports educational content creation and customer support enhancements.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Enhancing digital marketing, educational content creation, and customer support through a variety of AI-driven tools
+Unique Features: Comprehensive toolkit covering content, image, and audio creation with SEO and educational support
+Pros: Wide array of AI tools for multiple creative and marketing needs, SEO optimization features to improve content rankings, Useful for educators with explanation and question generation tools
+Cons: Data privacy concerns due to third-party service integrations, Dependency on external providers may affect reliability, Limited customization in some tools
+Pricing: Not specified (assumed freemium with premium options)
+
+---
+
+Tool ID: langbuddyai-019
+Name: Langbuddy.ai
+Description: Langbuddy.ai is an AI-powered language learning platform that provides tools such as instant translations, kanji analysis for Japanese, and interactive chat-based learning to create a personalized language learning experience.
+Categories: Education: Language Learning, AI Tutoring, Vocabulary Building; AI Chatbot: Language Practice, Conversational Learning; Text & Writing: Translation Tools, Language Analysis; Productivity: Learning Tools
+Usage: Improving language skills through interactive AI-driven translation, analysis, and conversational practice
+Unique Features: Real-time AI translation and analysis, specialized kanji learning tools, chat-based language practice
+Pros: Multiple avenues for learning including chat-based practice, Detailed language breakdowns, especially for Japanese kanji, Interactive practice enhances conversational skills, Accessible via Chrome extension and web-based chat
+Cons: Quality of AI translations can vary, Heavy reliance on AI might limit independent language development
+Pricing: Not specified (assumed freemium with premium upgrades)
+2025-03-02 03:07:05,378 - INFO - =====================
+2025-03-02 03:07:05,378 - INFO - === LLM Input ===
+2025-03-02 03:07:05,378 - INFO - Question: I want to learn singing
+2025-03-02 03:07:05,385 - INFO - Context: Tool ID: mykaraokevideo-015
+Name: MyKaraoke.Video
+Description: MyKaraoke.Video is an interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects.
+Categories: Entertainment: Karaoke, Music Streaming; Video: Video Recording, Video Editing Tools; Social & Community: Online Communities, Collaborative Platforms; Life Assistant: Virtual Events, Interactive Experiences
+Usage: Recording and sharing karaoke performances, hosting virtual karaoke parties, and engaging with a global karaoke community
+Unique Features: Customizable video backgrounds, real-time vocal effects, collaborative duet features
+Pros: Vast selection of songs across genres and languages, Real-time vocal enhancements improve the singing experience, Collaborative features enable duets and group performances, User-friendly interface with customizable backgrounds
+Cons: Limited offline functionality for mobile users, Some premium songs and features require a subscription, Occasional latency during high-traffic periods
+Pricing: Not specified (free access with premium subscription options)
+
+---
+
+Tool ID: studybuddy-053
+Name: StudyBuddy
+Description: StudyBuddy is an AI-powered academic tool offering personalized study plans, resource recommendations, and real-time tutoring to help students excel in their studies.
+Categories: Education: Tutoring Platforms, Study Tools; Productivity: Learning Assistance
+Usage: Enhancing academic performance through personalized study support and resource recommendations
+Unique Features: AI-driven personalized tutoring and adaptive learning paths
+Pros: Personalized study plans tailored to individual needs, Access to a vast library of educational resources, Real-time tutoring support enhances learning
+Cons: May not cover all subjects in depth, Advanced features require a premium subscription, User experience can vary based on subject matter
+Pricing: Freemium with premium subscription options
+
+---
+
+Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+
+---
+
+Tool ID: askingtips-022
+Name: AskingTips
+Description: AskingTips is a comprehensive platform offering a suite of AI tools for content creation, image generation, audio production, transcription, and digital marketing solutions. It also supports educational content creation and customer support enhancements.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Enhancing digital marketing, educational content creation, and customer support through a variety of AI-driven tools
+Unique Features: Comprehensive toolkit covering content, image, and audio creation with SEO and educational support
+Pros: Wide array of AI tools for multiple creative and marketing needs, SEO optimization features to improve content rankings, Useful for educators with explanation and question generation tools
+Cons: Data privacy concerns due to third-party service integrations, Dependency on external providers may affect reliability, Limited customization in some tools
+Pricing: Not specified (assumed freemium with premium options)
+
+---
+
+Tool ID: langbuddyai-019
+Name: Langbuddy.ai
+Description: Langbuddy.ai is an AI-powered language learning platform that provides tools such as instant translations, kanji analysis for Japanese, and interactive chat-based learning to create a personalized language learning experience.
+Categories: Education: Language Learning, AI Tutoring, Vocabulary Building; AI Chatbot: Language Practice, Conversational Learning; Text & Writing: Translation Tools, Language Analysis; Productivity: Learning Tools
+Usage: Improving language skills through interactive AI-driven translation, analysis, and conversational practice
+Unique Features: Real-time AI translation and analysis, specialized kanji learning tools, chat-based language practice
+Pros: Multiple avenues for learning including chat-based practice, Detailed language breakdowns, especially for Japanese kanji, Interactive practice enhances conversational skills, Accessible via Chrome extension and web-based chat
+Cons: Quality of AI translations can vary, Heavy reliance on AI might limit independent language development
+Pricing: Not specified (assumed freemium with premium upgrades)
+2025-03-02 03:07:05,385 - INFO - ================
+2025-03-02 03:07:06,341 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-02 03:07:11,172 - ERROR - Invalid JSON in response: <think>
+Okay, so I need to figure out what tool would best help someone learn singing. Let me go through each of the provided tools and see which ones are related to learning or enhancing singing skills.
+
+First, looking at the user's query: "I want to learn singing." The main goal is to improve singing skills. Now, let's check each tool:
+
+1. **MyKaraoke.Video**: This one seems more about performing karaoke performances online, recording, and sharing video backgrounds. It doesn't seem directly related to learning how to sing or perform.
+
+2. **studybuddy-053**: This is an AI-powered academic tool that offers personalized study plans, resources, and real-time tutoring. While it's useful for studying, it doesn't specifically help with singing skills or practice.
+
+3. **musicmakerai-049**: This tool generates custom music tracks and beats. It's more about creating music than helping someone learn to sing.
+
+4. **askingtips-022**: A comprehensive platform offering AI tools for content creation, image generation, etc. While it has some features related to marketing and digital marketing, it doesn't seem directly tied to learning singing.
+
+5. **langbuddyai-019**: This is a language learning platform with translation tools and chat-based learning. It's focused on language skills rather than singing.
+
+After reviewing all the tools, none of them seem directly relevant to learning singing. The user might be looking for something more about performance or practice, which these tools aren't addressing. Therefore, it seems there are no matching tools in the provided dataset that specifically help with learning singing.
+</think>
+
+{
+    "tool_id": [],
+    "tools": []
+}
+2025-03-02 03:07:11,172 - ERROR - Error in query_tools: 500: Invalid response format from LLM
+2025-03-02 03:07:43,978 - INFO - Processing query: I want to learn singing
+2025-03-02 03:07:44,463 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 03:07:44,465 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 03:07:44,465 - INFO - Installing plugin inference into Pinecone
+2025-03-02 03:07:47,589 - INFO - Total vectors in index: 74
+2025-03-02 03:07:47,589 - INFO - Total vectors in store: 74
+2025-03-02 03:07:50,450 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 03:07:52,730 - INFO - === Document 1 ===
+2025-03-02 03:07:52,730 - INFO - Tool ID: mykaraokevideo-015
+2025-03-02 03:07:52,730 - INFO - Formatted doc: Tool ID: mykaraokevideo-015
+Name: MyKaraoke.Video
+Description: MyKaraoke.Video is an interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects.
+Categories: Entertainment: Karaoke, Music Streaming; Video: Video Recording, Video Editing Tools; Social & Community: Online Communities, Collaborative Platforms; Life Assistant: Virtual Events, Interactive Experiences
+Usage: Recording and sharing karaoke performances, hosting virtual karaoke parties, and engaging with a global karaoke community
+Unique Features: Customizable video backgrounds, real-time vocal effects, collaborative duet features
+Pros: Vast selection of songs across genres and languages, Real-time vocal enhancements improve the singing experience, Collaborative features enable duets and group performances, User-friendly interface with customizable backgrounds
+Cons: Limited offline functionality for mobile users, Some premium songs and features require a subscription, Occasional latency during high-traffic periods
+Pricing: Not specified (free access with premium subscription options)
+2025-03-02 03:07:52,732 - INFO - =====================
+2025-03-02 03:07:52,732 - INFO - === Document 2 ===
+2025-03-02 03:07:52,732 - INFO - Tool ID: studybuddy-053
+2025-03-02 03:07:52,732 - INFO - Formatted doc: Tool ID: studybuddy-053
+Name: StudyBuddy
+Description: StudyBuddy is an AI-powered academic tool offering personalized study plans, resource recommendations, and real-time tutoring to help students excel in their studies.
+Categories: Education: Tutoring Platforms, Study Tools; Productivity: Learning Assistance
+Usage: Enhancing academic performance through personalized study support and resource recommendations
+Unique Features: AI-driven personalized tutoring and adaptive learning paths
+Pros: Personalized study plans tailored to individual needs, Access to a vast library of educational resources, Real-time tutoring support enhances learning
+Cons: May not cover all subjects in depth, Advanced features require a premium subscription, User experience can vary based on subject matter
+Pricing: Freemium with premium subscription options
+2025-03-02 03:07:52,732 - INFO - =====================
+2025-03-02 03:07:52,732 - INFO - === Document 3 ===
+2025-03-02 03:07:52,732 - INFO - Tool ID: musicmakerai-049
+2025-03-02 03:07:52,732 - INFO - Formatted doc: Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+2025-03-02 03:07:52,734 - INFO - =====================
+2025-03-02 03:07:52,734 - INFO - === Document 4 ===
+2025-03-02 03:07:52,734 - INFO - Tool ID: askingtips-022
+2025-03-02 03:07:52,734 - INFO - Formatted doc: Tool ID: askingtips-022
+Name: AskingTips
+Description: AskingTips is a comprehensive platform offering a suite of AI tools for content creation, image generation, audio production, transcription, and digital marketing solutions. It also supports educational content creation and customer support enhancements.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Enhancing digital marketing, educational content creation, and customer support through a variety of AI-driven tools
+Unique Features: Comprehensive toolkit covering content, image, and audio creation with SEO and educational support
+Pros: Wide array of AI tools for multiple creative and marketing needs, SEO optimization features to improve content rankings, Useful for educators with explanation and question generation tools
+Cons: Data privacy concerns due to third-party service integrations, Dependency on external providers may affect reliability, Limited customization in some tools
+Pricing: Not specified (assumed freemium with premium options)
+2025-03-02 03:07:52,734 - INFO - =====================
+2025-03-02 03:07:52,734 - INFO - === Document 5 ===
+2025-03-02 03:07:52,734 - INFO - Tool ID: langbuddyai-019
+2025-03-02 03:07:52,734 - INFO - Formatted doc: Tool ID: langbuddyai-019
+Name: Langbuddy.ai
+Description: Langbuddy.ai is an AI-powered language learning platform that provides tools such as instant translations, kanji analysis for Japanese, and interactive chat-based learning to create a personalized language learning experience.
+Categories: Education: Language Learning, AI Tutoring, Vocabulary Building; AI Chatbot: Language Practice, Conversational Learning; Text & Writing: Translation Tools, Language Analysis; Productivity: Learning Tools
+Usage: Improving language skills through interactive AI-driven translation, analysis, and conversational practice
+Unique Features: Real-time AI translation and analysis, specialized kanji learning tools, chat-based language practice
+Pros: Multiple avenues for learning including chat-based practice, Detailed language breakdowns, especially for Japanese kanji, Interactive practice enhances conversational skills, Accessible via Chrome extension and web-based chat
+Cons: Quality of AI translations can vary, Heavy reliance on AI might limit independent language development
+Pricing: Not specified (assumed freemium with premium upgrades)
+2025-03-02 03:07:52,736 - INFO - =====================
+2025-03-02 03:07:52,736 - INFO - === Complete Context ===
+2025-03-02 03:07:52,736 - INFO - Tool ID: mykaraokevideo-015
+Name: MyKaraoke.Video
+Description: MyKaraoke.Video is an interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects.
+Categories: Entertainment: Karaoke, Music Streaming; Video: Video Recording, Video Editing Tools; Social & Community: Online Communities, Collaborative Platforms; Life Assistant: Virtual Events, Interactive Experiences
+Usage: Recording and sharing karaoke performances, hosting virtual karaoke parties, and engaging with a global karaoke community
+Unique Features: Customizable video backgrounds, real-time vocal effects, collaborative duet features
+Pros: Vast selection of songs across genres and languages, Real-time vocal enhancements improve the singing experience, Collaborative features enable duets and group performances, User-friendly interface with customizable backgrounds
+Cons: Limited offline functionality for mobile users, Some premium songs and features require a subscription, Occasional latency during high-traffic periods
+Pricing: Not specified (free access with premium subscription options)
+
+---
+
+Tool ID: studybuddy-053
+Name: StudyBuddy
+Description: StudyBuddy is an AI-powered academic tool offering personalized study plans, resource recommendations, and real-time tutoring to help students excel in their studies.
+Categories: Education: Tutoring Platforms, Study Tools; Productivity: Learning Assistance
+Usage: Enhancing academic performance through personalized study support and resource recommendations
+Unique Features: AI-driven personalized tutoring and adaptive learning paths
+Pros: Personalized study plans tailored to individual needs, Access to a vast library of educational resources, Real-time tutoring support enhances learning
+Cons: May not cover all subjects in depth, Advanced features require a premium subscription, User experience can vary based on subject matter
+Pricing: Freemium with premium subscription options
+
+---
+
+Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+
+---
+
+Tool ID: askingtips-022
+Name: AskingTips
+Description: AskingTips is a comprehensive platform offering a suite of AI tools for content creation, image generation, audio production, transcription, and digital marketing solutions. It also supports educational content creation and customer support enhancements.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Enhancing digital marketing, educational content creation, and customer support through a variety of AI-driven tools
+Unique Features: Comprehensive toolkit covering content, image, and audio creation with SEO and educational support
+Pros: Wide array of AI tools for multiple creative and marketing needs, SEO optimization features to improve content rankings, Useful for educators with explanation and question generation tools
+Cons: Data privacy concerns due to third-party service integrations, Dependency on external providers may affect reliability, Limited customization in some tools
+Pricing: Not specified (assumed freemium with premium options)
+
+---
+
+Tool ID: langbuddyai-019
+Name: Langbuddy.ai
+Description: Langbuddy.ai is an AI-powered language learning platform that provides tools such as instant translations, kanji analysis for Japanese, and interactive chat-based learning to create a personalized language learning experience.
+Categories: Education: Language Learning, AI Tutoring, Vocabulary Building; AI Chatbot: Language Practice, Conversational Learning; Text & Writing: Translation Tools, Language Analysis; Productivity: Learning Tools
+Usage: Improving language skills through interactive AI-driven translation, analysis, and conversational practice
+Unique Features: Real-time AI translation and analysis, specialized kanji learning tools, chat-based language practice
+Pros: Multiple avenues for learning including chat-based practice, Detailed language breakdowns, especially for Japanese kanji, Interactive practice enhances conversational skills, Accessible via Chrome extension and web-based chat
+Cons: Quality of AI translations can vary, Heavy reliance on AI might limit independent language development
+Pricing: Not specified (assumed freemium with premium upgrades)
+2025-03-02 03:07:52,736 - INFO - =====================
+2025-03-02 03:07:52,736 - INFO - === LLM Input ===
+2025-03-02 03:07:52,738 - INFO - Question: I want to learn singing
+2025-03-02 03:07:52,738 - INFO - Context: Tool ID: mykaraokevideo-015
+Name: MyKaraoke.Video
+Description: MyKaraoke.Video is an interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects.
+Categories: Entertainment: Karaoke, Music Streaming; Video: Video Recording, Video Editing Tools; Social & Community: Online Communities, Collaborative Platforms; Life Assistant: Virtual Events, Interactive Experiences
+Usage: Recording and sharing karaoke performances, hosting virtual karaoke parties, and engaging with a global karaoke community
+Unique Features: Customizable video backgrounds, real-time vocal effects, collaborative duet features
+Pros: Vast selection of songs across genres and languages, Real-time vocal enhancements improve the singing experience, Collaborative features enable duets and group performances, User-friendly interface with customizable backgrounds
+Cons: Limited offline functionality for mobile users, Some premium songs and features require a subscription, Occasional latency during high-traffic periods
+Pricing: Not specified (free access with premium subscription options)
+
+---
+
+Tool ID: studybuddy-053
+Name: StudyBuddy
+Description: StudyBuddy is an AI-powered academic tool offering personalized study plans, resource recommendations, and real-time tutoring to help students excel in their studies.
+Categories: Education: Tutoring Platforms, Study Tools; Productivity: Learning Assistance
+Usage: Enhancing academic performance through personalized study support and resource recommendations
+Unique Features: AI-driven personalized tutoring and adaptive learning paths
+Pros: Personalized study plans tailored to individual needs, Access to a vast library of educational resources, Real-time tutoring support enhances learning
+Cons: May not cover all subjects in depth, Advanced features require a premium subscription, User experience can vary based on subject matter
+Pricing: Freemium with premium subscription options
+
+---
+
+Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+
+---
+
+Tool ID: askingtips-022
+Name: AskingTips
+Description: AskingTips is a comprehensive platform offering a suite of AI tools for content creation, image generation, audio production, transcription, and digital marketing solutions. It also supports educational content creation and customer support enhancements.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Enhancing digital marketing, educational content creation, and customer support through a variety of AI-driven tools
+Unique Features: Comprehensive toolkit covering content, image, and audio creation with SEO and educational support
+Pros: Wide array of AI tools for multiple creative and marketing needs, SEO optimization features to improve content rankings, Useful for educators with explanation and question generation tools
+Cons: Data privacy concerns due to third-party service integrations, Dependency on external providers may affect reliability, Limited customization in some tools
+Pricing: Not specified (assumed freemium with premium options)
+
+---
+
+Tool ID: langbuddyai-019
+Name: Langbuddy.ai
+Description: Langbuddy.ai is an AI-powered language learning platform that provides tools such as instant translations, kanji analysis for Japanese, and interactive chat-based learning to create a personalized language learning experience.
+Categories: Education: Language Learning, AI Tutoring, Vocabulary Building; AI Chatbot: Language Practice, Conversational Learning; Text & Writing: Translation Tools, Language Analysis; Productivity: Learning Tools
+Usage: Improving language skills through interactive AI-driven translation, analysis, and conversational practice
+Unique Features: Real-time AI translation and analysis, specialized kanji learning tools, chat-based language practice
+Pros: Multiple avenues for learning including chat-based practice, Detailed language breakdowns, especially for Japanese kanji, Interactive practice enhances conversational skills, Accessible via Chrome extension and web-based chat
+Cons: Quality of AI translations can vary, Heavy reliance on AI might limit independent language development
+Pricing: Not specified (assumed freemium with premium upgrades)
+2025-03-02 03:07:52,739 - INFO - ================
+2025-03-02 03:07:53,266 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-02 03:08:00,961 - INFO - Cleaned response: {
+  "tool_id": [
+    "mykaraokevideo-015"
+  ],
+  "tools": [
+    {
+      "id": "mykaraokevideo-015",
+      "name": "MyKaraoke.Video",
+      "description": "An interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects."
+    }
+  ]
+}
+2025-03-02 13:01:19,083 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 13:01:19,083 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 13:01:19,105 - INFO - Installing plugin inference into Pinecone
+2025-03-02 13:01:19,105 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 13:01:19,105 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 13:01:19,105 - INFO - Installing plugin inference into Pinecone
+2025-03-02 13:05:34,322 - INFO - Processing query: I want to learn singing
+2025-03-02 13:05:34,827 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 13:05:34,827 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 13:05:34,827 - INFO - Installing plugin inference into Pinecone
+2025-03-02 13:05:38,154 - INFO - Total vectors in index: 74
+2025-03-02 13:05:38,161 - INFO - Total vectors in store: 74
+2025-03-02 13:05:41,906 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 13:05:44,013 - INFO - === Document 1 ===
+2025-03-02 13:05:44,013 - INFO - Tool ID: mykaraokevideo-015
+2025-03-02 13:05:44,013 - INFO - Formatted doc: Tool ID: mykaraokevideo-015
+Name: MyKaraoke.Video
+Description: MyKaraoke.Video is an interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects.
+Categories: Entertainment: Karaoke, Music Streaming; Video: Video Recording, Video Editing Tools; Social & Community: Online Communities, Collaborative Platforms; Life Assistant: Virtual Events, Interactive Experiences
+Usage: Recording and sharing karaoke performances, hosting virtual karaoke parties, and engaging with a global karaoke community
+Unique Features: Customizable video backgrounds, real-time vocal effects, collaborative duet features
+Pros: Vast selection of songs across genres and languages, Real-time vocal enhancements improve the singing experience, Collaborative features enable duets and group performances, User-friendly interface with customizable backgrounds
+Cons: Limited offline functionality for mobile users, Some premium songs and features require a subscription, Occasional latency during high-traffic periods
+Pricing: Not specified (free access with premium subscription options)
+2025-03-02 13:05:44,014 - INFO - =====================
+2025-03-02 13:05:44,014 - INFO - === Document 2 ===
+2025-03-02 13:05:44,014 - INFO - Tool ID: studybuddy-053
+2025-03-02 13:05:44,014 - INFO - Formatted doc: Tool ID: studybuddy-053
+Name: StudyBuddy
+Description: StudyBuddy is an AI-powered academic tool offering personalized study plans, resource recommendations, and real-time tutoring to help students excel in their studies.
+Categories: Education: Tutoring Platforms, Study Tools; Productivity: Learning Assistance
+Usage: Enhancing academic performance through personalized study support and resource recommendations
+Unique Features: AI-driven personalized tutoring and adaptive learning paths
+Pros: Personalized study plans tailored to individual needs, Access to a vast library of educational resources, Real-time tutoring support enhances learning
+Cons: May not cover all subjects in depth, Advanced features require a premium subscription, User experience can vary based on subject matter
+Pricing: Freemium with premium subscription options
+2025-03-02 13:05:44,014 - INFO - =====================
+2025-03-02 13:05:44,016 - INFO - === Document 3 ===
+2025-03-02 13:05:44,016 - INFO - Tool ID: musicmakerai-049
+2025-03-02 13:05:44,016 - INFO - Formatted doc: Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+2025-03-02 13:05:44,016 - INFO - =====================
+2025-03-02 13:05:44,016 - INFO - === Document 4 ===
+2025-03-02 13:05:44,017 - INFO - Tool ID: askingtips-022
+2025-03-02 13:05:44,017 - INFO - Formatted doc: Tool ID: askingtips-022
+Name: AskingTips
+Description: AskingTips is a comprehensive platform offering a suite of AI tools for content creation, image generation, audio production, transcription, and digital marketing solutions. It also supports educational content creation and customer support enhancements.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Enhancing digital marketing, educational content creation, and customer support through a variety of AI-driven tools
+Unique Features: Comprehensive toolkit covering content, image, and audio creation with SEO and educational support
+Pros: Wide array of AI tools for multiple creative and marketing needs, SEO optimization features to improve content rankings, Useful for educators with explanation and question generation tools
+Cons: Data privacy concerns due to third-party service integrations, Dependency on external providers may affect reliability, Limited customization in some tools
+Pricing: Not specified (assumed freemium with premium options)
+2025-03-02 13:05:44,017 - INFO - =====================
+2025-03-02 13:05:44,017 - INFO - === Document 5 ===
+2025-03-02 13:05:44,017 - INFO - Tool ID: langbuddyai-019
+2025-03-02 13:05:44,017 - INFO - Formatted doc: Tool ID: langbuddyai-019
+Name: Langbuddy.ai
+Description: Langbuddy.ai is an AI-powered language learning platform that provides tools such as instant translations, kanji analysis for Japanese, and interactive chat-based learning to create a personalized language learning experience.
+Categories: Education: Language Learning, AI Tutoring, Vocabulary Building; AI Chatbot: Language Practice, Conversational Learning; Text & Writing: Translation Tools, Language Analysis; Productivity: Learning Tools
+Usage: Improving language skills through interactive AI-driven translation, analysis, and conversational practice
+Unique Features: Real-time AI translation and analysis, specialized kanji learning tools, chat-based language practice
+Pros: Multiple avenues for learning including chat-based practice, Detailed language breakdowns, especially for Japanese kanji, Interactive practice enhances conversational skills, Accessible via Chrome extension and web-based chat
+Cons: Quality of AI translations can vary, Heavy reliance on AI might limit independent language development
+Pricing: Not specified (assumed freemium with premium upgrades)
+2025-03-02 13:05:44,018 - INFO - =====================
+2025-03-02 13:05:44,018 - INFO - === Complete Context ===
+2025-03-02 13:05:44,018 - INFO - Tool ID: mykaraokevideo-015
+Name: MyKaraoke.Video
+Description: MyKaraoke.Video is an interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects.
+Categories: Entertainment: Karaoke, Music Streaming; Video: Video Recording, Video Editing Tools; Social & Community: Online Communities, Collaborative Platforms; Life Assistant: Virtual Events, Interactive Experiences
+Usage: Recording and sharing karaoke performances, hosting virtual karaoke parties, and engaging with a global karaoke community
+Unique Features: Customizable video backgrounds, real-time vocal effects, collaborative duet features
+Pros: Vast selection of songs across genres and languages, Real-time vocal enhancements improve the singing experience, Collaborative features enable duets and group performances, User-friendly interface with customizable backgrounds
+Cons: Limited offline functionality for mobile users, Some premium songs and features require a subscription, Occasional latency during high-traffic periods
+Pricing: Not specified (free access with premium subscription options)
+
+---
+
+Tool ID: studybuddy-053
+Name: StudyBuddy
+Description: StudyBuddy is an AI-powered academic tool offering personalized study plans, resource recommendations, and real-time tutoring to help students excel in their studies.
+Categories: Education: Tutoring Platforms, Study Tools; Productivity: Learning Assistance
+Usage: Enhancing academic performance through personalized study support and resource recommendations
+Unique Features: AI-driven personalized tutoring and adaptive learning paths
+Pros: Personalized study plans tailored to individual needs, Access to a vast library of educational resources, Real-time tutoring support enhances learning
+Cons: May not cover all subjects in depth, Advanced features require a premium subscription, User experience can vary based on subject matter
+Pricing: Freemium with premium subscription options
+
+---
+
+Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+
+---
+
+Tool ID: askingtips-022
+Name: AskingTips
+Description: AskingTips is a comprehensive platform offering a suite of AI tools for content creation, image generation, audio production, transcription, and digital marketing solutions. It also supports educational content creation and customer support enhancements.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Enhancing digital marketing, educational content creation, and customer support through a variety of AI-driven tools
+Unique Features: Comprehensive toolkit covering content, image, and audio creation with SEO and educational support
+Pros: Wide array of AI tools for multiple creative and marketing needs, SEO optimization features to improve content rankings, Useful for educators with explanation and question generation tools
+Cons: Data privacy concerns due to third-party service integrations, Dependency on external providers may affect reliability, Limited customization in some tools
+Pricing: Not specified (assumed freemium with premium options)
+
+---
+
+Tool ID: langbuddyai-019
+Name: Langbuddy.ai
+Description: Langbuddy.ai is an AI-powered language learning platform that provides tools such as instant translations, kanji analysis for Japanese, and interactive chat-based learning to create a personalized language learning experience.
+Categories: Education: Language Learning, AI Tutoring, Vocabulary Building; AI Chatbot: Language Practice, Conversational Learning; Text & Writing: Translation Tools, Language Analysis; Productivity: Learning Tools
+Usage: Improving language skills through interactive AI-driven translation, analysis, and conversational practice
+Unique Features: Real-time AI translation and analysis, specialized kanji learning tools, chat-based language practice
+Pros: Multiple avenues for learning including chat-based practice, Detailed language breakdowns, especially for Japanese kanji, Interactive practice enhances conversational skills, Accessible via Chrome extension and web-based chat
+Cons: Quality of AI translations can vary, Heavy reliance on AI might limit independent language development
+Pricing: Not specified (assumed freemium with premium upgrades)
+2025-03-02 13:05:44,018 - INFO - =====================
+2025-03-02 13:05:44,019 - INFO - === LLM Input ===
+2025-03-02 13:05:44,019 - INFO - Question: I want to learn singing
+2025-03-02 13:05:44,019 - INFO - Context: Tool ID: mykaraokevideo-015
+Name: MyKaraoke.Video
+Description: MyKaraoke.Video is an interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects.
+Categories: Entertainment: Karaoke, Music Streaming; Video: Video Recording, Video Editing Tools; Social & Community: Online Communities, Collaborative Platforms; Life Assistant: Virtual Events, Interactive Experiences
+Usage: Recording and sharing karaoke performances, hosting virtual karaoke parties, and engaging with a global karaoke community
+Unique Features: Customizable video backgrounds, real-time vocal effects, collaborative duet features
+Pros: Vast selection of songs across genres and languages, Real-time vocal enhancements improve the singing experience, Collaborative features enable duets and group performances, User-friendly interface with customizable backgrounds
+Cons: Limited offline functionality for mobile users, Some premium songs and features require a subscription, Occasional latency during high-traffic periods
+Pricing: Not specified (free access with premium subscription options)
+
+---
+
+Tool ID: studybuddy-053
+Name: StudyBuddy
+Description: StudyBuddy is an AI-powered academic tool offering personalized study plans, resource recommendations, and real-time tutoring to help students excel in their studies.
+Categories: Education: Tutoring Platforms, Study Tools; Productivity: Learning Assistance
+Usage: Enhancing academic performance through personalized study support and resource recommendations
+Unique Features: AI-driven personalized tutoring and adaptive learning paths
+Pros: Personalized study plans tailored to individual needs, Access to a vast library of educational resources, Real-time tutoring support enhances learning
+Cons: May not cover all subjects in depth, Advanced features require a premium subscription, User experience can vary based on subject matter
+Pricing: Freemium with premium subscription options
+
+---
+
+Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+
+---
+
+Tool ID: askingtips-022
+Name: AskingTips
+Description: AskingTips is a comprehensive platform offering a suite of AI tools for content creation, image generation, audio production, transcription, and digital marketing solutions. It also supports educational content creation and customer support enhancements.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Enhancing digital marketing, educational content creation, and customer support through a variety of AI-driven tools
+Unique Features: Comprehensive toolkit covering content, image, and audio creation with SEO and educational support
+Pros: Wide array of AI tools for multiple creative and marketing needs, SEO optimization features to improve content rankings, Useful for educators with explanation and question generation tools
+Cons: Data privacy concerns due to third-party service integrations, Dependency on external providers may affect reliability, Limited customization in some tools
+Pricing: Not specified (assumed freemium with premium options)
+
+---
+
+Tool ID: langbuddyai-019
+Name: Langbuddy.ai
+Description: Langbuddy.ai is an AI-powered language learning platform that provides tools such as instant translations, kanji analysis for Japanese, and interactive chat-based learning to create a personalized language learning experience.
+Categories: Education: Language Learning, AI Tutoring, Vocabulary Building; AI Chatbot: Language Practice, Conversational Learning; Text & Writing: Translation Tools, Language Analysis; Productivity: Learning Tools
+Usage: Improving language skills through interactive AI-driven translation, analysis, and conversational practice
+Unique Features: Real-time AI translation and analysis, specialized kanji learning tools, chat-based language practice
+Pros: Multiple avenues for learning including chat-based practice, Detailed language breakdowns, especially for Japanese kanji, Interactive practice enhances conversational skills, Accessible via Chrome extension and web-based chat
+Cons: Quality of AI translations can vary, Heavy reliance on AI might limit independent language development
+Pricing: Not specified (assumed freemium with premium upgrades)
+2025-03-02 13:05:44,020 - INFO - ================
+2025-03-02 13:05:56,754 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-02 13:06:03,416 - INFO - Processing query: I want to learn singing
+2025-03-02 13:06:04,058 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 13:06:04,058 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 13:06:04,058 - INFO - Installing plugin inference into Pinecone
+2025-03-02 13:06:06,787 - INFO - Total vectors in index: 74
+2025-03-02 13:06:06,789 - INFO - Total vectors in store: 74
+2025-03-02 13:06:43,258 - INFO - Cleaned response: {
+  "tool_id": [
+    "mykaraokevideo-015"
+  ],
+  "tools": [
+    {
+      "id": "mykaraokevideo-015",
+      "name": "MyKaraoke.Video",
+      "description": "An interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects."
+    }
+  ]
+}
+2025-03-02 13:06:44,371 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 13:06:48,532 - INFO - === Document 1 ===
+2025-03-02 13:06:48,532 - INFO - Tool ID: mykaraokevideo-015
+2025-03-02 13:06:48,533 - INFO - Formatted doc: Tool ID: mykaraokevideo-015
+Name: MyKaraoke.Video
+Description: MyKaraoke.Video is an interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects.
+Categories: Entertainment: Karaoke, Music Streaming; Video: Video Recording, Video Editing Tools; Social & Community: Online Communities, Collaborative Platforms; Life Assistant: Virtual Events, Interactive Experiences
+Usage: Recording and sharing karaoke performances, hosting virtual karaoke parties, and engaging with a global karaoke community
+Unique Features: Customizable video backgrounds, real-time vocal effects, collaborative duet features
+Pros: Vast selection of songs across genres and languages, Real-time vocal enhancements improve the singing experience, Collaborative features enable duets and group performances, User-friendly interface with customizable backgrounds
+Cons: Limited offline functionality for mobile users, Some premium songs and features require a subscription, Occasional latency during high-traffic periods
+Pricing: Not specified (free access with premium subscription options)
+2025-03-02 13:06:48,533 - INFO - =====================
+2025-03-02 13:06:48,533 - INFO - === Document 2 ===
+2025-03-02 13:06:48,534 - INFO - Tool ID: studybuddy-053
+2025-03-02 13:06:48,534 - INFO - Formatted doc: Tool ID: studybuddy-053
+Name: StudyBuddy
+Description: StudyBuddy is an AI-powered academic tool offering personalized study plans, resource recommendations, and real-time tutoring to help students excel in their studies.
+Categories: Education: Tutoring Platforms, Study Tools; Productivity: Learning Assistance
+Usage: Enhancing academic performance through personalized study support and resource recommendations
+Unique Features: AI-driven personalized tutoring and adaptive learning paths
+Pros: Personalized study plans tailored to individual needs, Access to a vast library of educational resources, Real-time tutoring support enhances learning
+Cons: May not cover all subjects in depth, Advanced features require a premium subscription, User experience can vary based on subject matter
+Pricing: Freemium with premium subscription options
+2025-03-02 13:06:48,534 - INFO - =====================
+2025-03-02 13:06:48,534 - INFO - === Document 3 ===
+2025-03-02 13:06:48,535 - INFO - Tool ID: musicmakerai-049
+2025-03-02 13:06:48,535 - INFO - Formatted doc: Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+2025-03-02 13:06:48,535 - INFO - =====================
+2025-03-02 13:06:48,535 - INFO - === Document 4 ===
+2025-03-02 13:06:48,535 - INFO - Tool ID: askingtips-022
+2025-03-02 13:06:48,536 - INFO - Formatted doc: Tool ID: askingtips-022
+Name: AskingTips
+Description: AskingTips is a comprehensive platform offering a suite of AI tools for content creation, image generation, audio production, transcription, and digital marketing solutions. It also supports educational content creation and customer support enhancements.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Enhancing digital marketing, educational content creation, and customer support through a variety of AI-driven tools
+Unique Features: Comprehensive toolkit covering content, image, and audio creation with SEO and educational support
+Pros: Wide array of AI tools for multiple creative and marketing needs, SEO optimization features to improve content rankings, Useful for educators with explanation and question generation tools
+Cons: Data privacy concerns due to third-party service integrations, Dependency on external providers may affect reliability, Limited customization in some tools
+Pricing: Not specified (assumed freemium with premium options)
+2025-03-02 13:06:48,536 - INFO - =====================
+2025-03-02 13:06:48,536 - INFO - === Document 5 ===
+2025-03-02 13:06:48,536 - INFO - Tool ID: langbuddyai-019
+2025-03-02 13:06:48,536 - INFO - Formatted doc: Tool ID: langbuddyai-019
+Name: Langbuddy.ai
+Description: Langbuddy.ai is an AI-powered language learning platform that provides tools such as instant translations, kanji analysis for Japanese, and interactive chat-based learning to create a personalized language learning experience.
+Categories: Education: Language Learning, AI Tutoring, Vocabulary Building; AI Chatbot: Language Practice, Conversational Learning; Text & Writing: Translation Tools, Language Analysis; Productivity: Learning Tools
+Usage: Improving language skills through interactive AI-driven translation, analysis, and conversational practice
+Unique Features: Real-time AI translation and analysis, specialized kanji learning tools, chat-based language practice
+Pros: Multiple avenues for learning including chat-based practice, Detailed language breakdowns, especially for Japanese kanji, Interactive practice enhances conversational skills, Accessible via Chrome extension and web-based chat
+Cons: Quality of AI translations can vary, Heavy reliance on AI might limit independent language development
+Pricing: Not specified (assumed freemium with premium upgrades)
+2025-03-02 13:06:48,537 - INFO - =====================
+2025-03-02 13:06:48,537 - INFO - === Complete Context ===
+2025-03-02 13:06:48,537 - INFO - Tool ID: mykaraokevideo-015
+Name: MyKaraoke.Video
+Description: MyKaraoke.Video is an interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects.
+Categories: Entertainment: Karaoke, Music Streaming; Video: Video Recording, Video Editing Tools; Social & Community: Online Communities, Collaborative Platforms; Life Assistant: Virtual Events, Interactive Experiences
+Usage: Recording and sharing karaoke performances, hosting virtual karaoke parties, and engaging with a global karaoke community
+Unique Features: Customizable video backgrounds, real-time vocal effects, collaborative duet features
+Pros: Vast selection of songs across genres and languages, Real-time vocal enhancements improve the singing experience, Collaborative features enable duets and group performances, User-friendly interface with customizable backgrounds
+Cons: Limited offline functionality for mobile users, Some premium songs and features require a subscription, Occasional latency during high-traffic periods
+Pricing: Not specified (free access with premium subscription options)
+
+---
+
+Tool ID: studybuddy-053
+Name: StudyBuddy
+Description: StudyBuddy is an AI-powered academic tool offering personalized study plans, resource recommendations, and real-time tutoring to help students excel in their studies.
+Categories: Education: Tutoring Platforms, Study Tools; Productivity: Learning Assistance
+Usage: Enhancing academic performance through personalized study support and resource recommendations
+Unique Features: AI-driven personalized tutoring and adaptive learning paths
+Pros: Personalized study plans tailored to individual needs, Access to a vast library of educational resources, Real-time tutoring support enhances learning
+Cons: May not cover all subjects in depth, Advanced features require a premium subscription, User experience can vary based on subject matter
+Pricing: Freemium with premium subscription options
+
+---
+
+Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+
+---
+
+Tool ID: askingtips-022
+Name: AskingTips
+Description: AskingTips is a comprehensive platform offering a suite of AI tools for content creation, image generation, audio production, transcription, and digital marketing solutions. It also supports educational content creation and customer support enhancements.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Enhancing digital marketing, educational content creation, and customer support through a variety of AI-driven tools
+Unique Features: Comprehensive toolkit covering content, image, and audio creation with SEO and educational support
+Pros: Wide array of AI tools for multiple creative and marketing needs, SEO optimization features to improve content rankings, Useful for educators with explanation and question generation tools
+Cons: Data privacy concerns due to third-party service integrations, Dependency on external providers may affect reliability, Limited customization in some tools
+Pricing: Not specified (assumed freemium with premium options)
+
+---
+
+Tool ID: langbuddyai-019
+Name: Langbuddy.ai
+Description: Langbuddy.ai is an AI-powered language learning platform that provides tools such as instant translations, kanji analysis for Japanese, and interactive chat-based learning to create a personalized language learning experience.
+Categories: Education: Language Learning, AI Tutoring, Vocabulary Building; AI Chatbot: Language Practice, Conversational Learning; Text & Writing: Translation Tools, Language Analysis; Productivity: Learning Tools
+Usage: Improving language skills through interactive AI-driven translation, analysis, and conversational practice
+Unique Features: Real-time AI translation and analysis, specialized kanji learning tools, chat-based language practice
+Pros: Multiple avenues for learning including chat-based practice, Detailed language breakdowns, especially for Japanese kanji, Interactive practice enhances conversational skills, Accessible via Chrome extension and web-based chat
+Cons: Quality of AI translations can vary, Heavy reliance on AI might limit independent language development
+Pricing: Not specified (assumed freemium with premium upgrades)
+2025-03-02 13:06:48,537 - INFO - =====================
+2025-03-02 13:06:48,538 - INFO - === LLM Input ===
+2025-03-02 13:06:48,538 - INFO - Question: I want to learn singing
+2025-03-02 13:06:48,538 - INFO - Context: Tool ID: mykaraokevideo-015
+Name: MyKaraoke.Video
+Description: MyKaraoke.Video is an interactive platform that lets users sing, record, and share karaoke performances online. It offers an extensive song library, customizable video backgrounds, and real-time vocal effects.
+Categories: Entertainment: Karaoke, Music Streaming; Video: Video Recording, Video Editing Tools; Social & Community: Online Communities, Collaborative Platforms; Life Assistant: Virtual Events, Interactive Experiences
+Usage: Recording and sharing karaoke performances, hosting virtual karaoke parties, and engaging with a global karaoke community
+Unique Features: Customizable video backgrounds, real-time vocal effects, collaborative duet features
+Pros: Vast selection of songs across genres and languages, Real-time vocal enhancements improve the singing experience, Collaborative features enable duets and group performances, User-friendly interface with customizable backgrounds
+Cons: Limited offline functionality for mobile users, Some premium songs and features require a subscription, Occasional latency during high-traffic periods
+Pricing: Not specified (free access with premium subscription options)
+
+---
+
+Tool ID: studybuddy-053
+Name: StudyBuddy
+Description: StudyBuddy is an AI-powered academic tool offering personalized study plans, resource recommendations, and real-time tutoring to help students excel in their studies.
+Categories: Education: Tutoring Platforms, Study Tools; Productivity: Learning Assistance
+Usage: Enhancing academic performance through personalized study support and resource recommendations
+Unique Features: AI-driven personalized tutoring and adaptive learning paths
+Pros: Personalized study plans tailored to individual needs, Access to a vast library of educational resources, Real-time tutoring support enhances learning
+Cons: May not cover all subjects in depth, Advanced features require a premium subscription, User experience can vary based on subject matter
+Pricing: Freemium with premium subscription options
+
+---
+
+Tool ID: musicmakerai-049
+Name: MusicMaker AI
+Description: MusicMaker AI is an AI-powered music composition tool that generates custom soundtracks and beats for creators, advertisers, and gaming projects.
+Categories: Design & Art: Music Production, Audio Tools; Productivity: Creative Content
+Usage: Creating original music compositions for videos, ads, and games
+Unique Features: AI-driven music composition with genre-specific templates
+Pros: Generates high-quality, custom music tracks, User-friendly interface even for non-musicians, Wide range of genres available
+Cons: Limited editing capabilities for fine-tuning, Some outputs may require human tweaking, Premium tracks require a subscription
+Pricing: Freemium with premium subscriptions
+
+---
+
+Tool ID: askingtips-022
+Name: AskingTips
+Description: AskingTips is a comprehensive platform offering a suite of AI tools for content creation, image generation, audio production, transcription, and digital marketing solutions. It also supports educational content creation and customer support enhancements.
+Categories: AI Chatbot: Content Generation, Virtual Assistants; Life Assistant: Customer Support Tools, Educational Assistants; Design & Art: Image Generation, Creative Writing Tools; Text & Writing: Content Creation, SEO Optimization; Education: Explanation Generators, Question Generators; Marketing: Digital Marketing Tools, Customer Satisfaction Enhancement
+Usage: Enhancing digital marketing, educational content creation, and customer support through a variety of AI-driven tools
+Unique Features: Comprehensive toolkit covering content, image, and audio creation with SEO and educational support
+Pros: Wide array of AI tools for multiple creative and marketing needs, SEO optimization features to improve content rankings, Useful for educators with explanation and question generation tools
+Cons: Data privacy concerns due to third-party service integrations, Dependency on external providers may affect reliability, Limited customization in some tools
+Pricing: Not specified (assumed freemium with premium options)
+
+---
+
+Tool ID: langbuddyai-019
+Name: Langbuddy.ai
+Description: Langbuddy.ai is an AI-powered language learning platform that provides tools such as instant translations, kanji analysis for Japanese, and interactive chat-based learning to create a personalized language learning experience.
+Categories: Education: Language Learning, AI Tutoring, Vocabulary Building; AI Chatbot: Language Practice, Conversational Learning; Text & Writing: Translation Tools, Language Analysis; Productivity: Learning Tools
+Usage: Improving language skills through interactive AI-driven translation, analysis, and conversational practice
+Unique Features: Real-time AI translation and analysis, specialized kanji learning tools, chat-based language practice
+Pros: Multiple avenues for learning including chat-based practice, Detailed language breakdowns, especially for Japanese kanji, Interactive practice enhances conversational skills, Accessible via Chrome extension and web-based chat
+Cons: Quality of AI translations can vary, Heavy reliance on AI might limit independent language development
+Pricing: Not specified (assumed freemium with premium upgrades)
+2025-03-02 13:06:48,539 - INFO - ================
+2025-03-02 13:06:50,992 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-02 13:06:55,402 - INFO - Cleaned response: {
+  "tool_id": [
+    "mykaraokevideo-015"
+  ],
+  "tools": [
+    {
+      "id": "mykaraokevideo-015",
+      "name": "MyKaraoke.Video",
+      "description": "Interactive platform for karaoke performances, video backgrounds, and real-time vocal effects."
+    }
+  ]
+}
+2025-03-02 13:14:44,691 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 13:14:44,692 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 13:14:44,707 - INFO - Installing plugin inference into Pinecone
+2025-03-02 13:14:44,707 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 13:14:44,712 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 13:14:44,712 - INFO - Installing plugin inference into Pinecone
+2025-03-02 13:15:01,655 - INFO - Total vectors in index: 74
+2025-03-02 13:15:01,656 - INFO - Current vector count before deletion: 74
+2025-03-02 13:15:02,409 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 13:15:02,409 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 13:15:02,409 - INFO - Installing plugin inference into Pinecone
+2025-03-02 13:15:06,264 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 13:15:11,545 - INFO - Total vectors in index: 74
+2025-03-02 13:15:11,545 - INFO - Vector count after deletion: 74
+2025-03-02 13:15:11,545 - INFO - Deleted tool: MyKaraoke.Video (Tool ID: mykaraokevideo-015, RID: cd1222e9-7f4f-4422-92a3-f454a3a9349d)
+2025-03-02 13:15:48,426 - INFO - Total vectors in index: 73
+2025-03-02 13:15:51,897 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 13:15:51,897 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 13:15:51,897 - INFO - Installing plugin inference into Pinecone
+2025-03-02 13:15:55,294 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 13:18:42,531 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 13:18:42,531 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 13:18:42,531 - INFO - Installing plugin inference into Pinecone
+2025-03-02 13:18:45,926 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 13:18:47,667 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 13:18:48,002 - INFO - Added tool: CryptoAdvisor AI (Tool ID: cryptoadvisorai-075)
+2025-03-02 13:18:49,398 - INFO - Total vectors in index: 74
+2025-03-02 13:18:49,398 - INFO - Vector count after addition: 74
+2025-03-02 13:20:15,433 - INFO - Processing query: tool_id:cryptoadvisorai-075
+2025-03-02 13:20:16,161 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 13:20:16,162 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 13:20:16,162 - INFO - Installing plugin inference into Pinecone
+2025-03-02 13:20:19,196 - INFO - Total vectors in index: 74
+2025-03-02 13:20:19,196 - INFO - Total vectors in store: 74
+2025-03-02 13:20:22,046 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 13:20:24,251 - INFO - === Document 1 ===
+2025-03-02 13:20:24,251 - INFO - Tool ID: cryptoadvisorai-075
+2025-03-02 13:20:24,251 - INFO - Formatted doc: Tool ID: cryptoadvisorai-075
+Name: CryptoAdvisor AI
+Description: CryptoAdvisor AI is an AI-powered tool that offers market insights, trend analysis, and personalized investment strategies for cryptocurrency traders.
+Categories: Finance & Investment: Cryptocurrency Trading, Investment Tools; Productivity: Market Analysis
+Usage: Assisting crypto traders in making informed decisions through AI-driven market analysis and investment recommendations
+Unique Features: Real-time trend analysis with personalized strategy recommendations
+Pros: Provides real-time crypto market insights, Offers personalized investment strategies, User-friendly interface with interactive charts
+Cons: Relies heavily on data feed accuracy, Advanced features require premium access, May not cover all emerging cryptocurrencies
+Pricing: Subscription-based with tiered options
+2025-03-02 13:20:24,258 - INFO - =====================
+2025-03-02 13:20:24,258 - INFO - === Document 2 ===
+2025-03-02 13:20:24,258 - INFO - Tool ID: smallhoursdev-013
+2025-03-02 13:20:24,258 - INFO - Formatted doc: Tool ID: smallhoursdev-013
+Name: SmallHours.dev
+Description: SmallHours.dev is a suite of AI-powered developer tools that streamlines software development workflows by automating code generation, API testing, documentation, and debugging.
+Categories: Code & IT: Code Generators, API Testing Tools, Debugging Assistants, Documentation Tools, DevOps Tools; Productivity: Workflow Automation, Task Management for Developers; Business: Developer Collaboration Tools, Technical Documentation Assistance
+Usage: Automating backend tasks, code generation, API testing, and documentation to speed up software development
+Unique Features: AI-powered code generation, effortless API testing, and smart debugging integrated into development workflows
+Pros: Wide range of tools covering multiple aspects of development, Clean and intuitive interface, Significant time savings for repetitive coding tasks, Seamless integration with popular IDEs and version control systems
+Cons: Limited support for niche programming languages, Some features may have a learning curve for beginners, Advanced functionalities might require premium access
+Pricing: Not specified (assumed freemium with premium tiers)
+2025-03-02 13:20:24,258 - INFO - =====================
+2025-03-02 13:20:24,258 - INFO - === Document 3 ===
+2025-03-02 13:20:24,258 - INFO - Tool ID: navamai-017
+2025-03-02 13:20:24,258 - INFO - Formatted doc: Tool ID: navamai-017
+Name: Navamai.com
+Description: Navamai.com is an AI-driven platform that simplifies the creation of personalized visual content and branding materials, including logos, banners, and social media graphics, tailored to users' unique styles.
+Categories: Design & Art: Logo Generators, Banner Creators, Branding Tools; Business: Marketing Assets, Promotional Materials, Brand Identity Tools; Productivity: Visual Content Generators, Quick Design Solutions; Image: Graphic Design Tools, Creative Imagery; Video: AI Video Generation, Marketing Video Tools, Content Creation; Life Assistant: Small Business Tools, DIY Branding Solutions
+Usage: Creating professional logos, banners, and other branding materials quickly
+Unique Features: AI-powered customization, extensive template library, fast turnaround on high-quality designs
+Pros: Quick and intuitive design process, Wide range of customizable templates, High-resolution downloads suitable for multiple platforms, Affordable for small businesses and startups
+Cons: Limited advanced customization for professional designers, No direct integration with third-party design tools, Lacks multilingual support for global users, Limited storage for saved designs unless upgraded
+Pricing: Not specified (freemium with premium upgrades)
+2025-03-02 13:20:24,258 - INFO - =====================
+2025-03-02 13:20:24,258 - INFO - === Document 4 ===
+2025-03-02 13:20:24,258 - INFO - Tool ID: privatemodeai-003
+2025-03-02 13:20:24,258 - INFO - Formatted doc: Tool ID: privatemodeai-003
+Name: PrivateMode AI
+Description: PrivateMode AI is a privacy-first chatbot platform that provides secure, encrypted conversations using confidential computing. It ensures zero data retention, making it a trusted alternative for privacy-conscious users and businesses.
+Categories: AI Chatbot: Secure Chatbots, Private Conversations; Code & IT: Data Security, Confidential Computing, API Services; Business: Privacy Compliance, Enterprise Security Solutions
+Usage: Providing secure AI chat assistance and API integration for confidential communications
+Unique Features: End-to-end data encryption, zero data retention policy, hardware-issued cryptographic attestation
+Pros: Industry-leading end-to-end encryption, Zero data retention ensures privacy, EU-based hosting enhances data sovereignty, Supports open-source AI models without risk, No sign-up required for immediate use
+Cons: Limited selection of pre-made personas, Basic user interface may feel outdated, Lacks community features for enhanced collaboration, Currently limited to EU-based hosting with few global options
+Pricing: Not specified (likely subscription-based or free access)
+2025-03-02 13:20:24,258 - INFO - =====================
+2025-03-02 13:20:24,258 - INFO - === Document 5 ===
+2025-03-02 13:20:24,258 - INFO - Tool ID: zuvaai-021
+2025-03-02 13:20:24,258 - INFO - Formatted doc: Tool ID: zuvaai-021
+Name: Zuva.ai
+Description: Zuva.ai is an AI-powered platform that specializes in contract analysis by extracting key data, clauses, and insights from legal documents using advanced machine learning and natural language processing.
+Categories: Business: Contract Management, Legal Tech, Automation; Code & IT: AI Data Extraction; Productivity: Document Analysis, Workflow Optimization
+Usage: Automating the extraction of critical information from contracts and legal documents
+Unique Features: AI-powered contract analysis with data export options, scalable review of large volumes of documents
+Pros: Dramatically speeds up contract review processes, Increases accuracy and reduces human error, User-friendly interface tailored for legal documents
+Cons: Complex contracts may still require human review, Reliability depends on the training data and unusual contract types
+Pricing: Not specified (assumed subscription-based)
+2025-03-02 13:20:24,258 - INFO - =====================
+2025-03-02 13:20:24,258 - INFO - === Complete Context ===
+2025-03-02 13:20:24,258 - INFO - Tool ID: cryptoadvisorai-075
+Name: CryptoAdvisor AI
+Description: CryptoAdvisor AI is an AI-powered tool that offers market insights, trend analysis, and personalized investment strategies for cryptocurrency traders.
+Categories: Finance & Investment: Cryptocurrency Trading, Investment Tools; Productivity: Market Analysis
+Usage: Assisting crypto traders in making informed decisions through AI-driven market analysis and investment recommendations
+Unique Features: Real-time trend analysis with personalized strategy recommendations
+Pros: Provides real-time crypto market insights, Offers personalized investment strategies, User-friendly interface with interactive charts
+Cons: Relies heavily on data feed accuracy, Advanced features require premium access, May not cover all emerging cryptocurrencies
+Pricing: Subscription-based with tiered options
+
+---
+
+Tool ID: smallhoursdev-013
+Name: SmallHours.dev
+Description: SmallHours.dev is a suite of AI-powered developer tools that streamlines software development workflows by automating code generation, API testing, documentation, and debugging.
+Categories: Code & IT: Code Generators, API Testing Tools, Debugging Assistants, Documentation Tools, DevOps Tools; Productivity: Workflow Automation, Task Management for Developers; Business: Developer Collaboration Tools, Technical Documentation Assistance
+Usage: Automating backend tasks, code generation, API testing, and documentation to speed up software development
+Unique Features: AI-powered code generation, effortless API testing, and smart debugging integrated into development workflows
+Pros: Wide range of tools covering multiple aspects of development, Clean and intuitive interface, Significant time savings for repetitive coding tasks, Seamless integration with popular IDEs and version control systems
+Cons: Limited support for niche programming languages, Some features may have a learning curve for beginners, Advanced functionalities might require premium access
+Pricing: Not specified (assumed freemium with premium tiers)
+
+---
+
+Tool ID: navamai-017
+Name: Navamai.com
+Description: Navamai.com is an AI-driven platform that simplifies the creation of personalized visual content and branding materials, including logos, banners, and social media graphics, tailored to users' unique styles.
+Categories: Design & Art: Logo Generators, Banner Creators, Branding Tools; Business: Marketing Assets, Promotional Materials, Brand Identity Tools; Productivity: Visual Content Generators, Quick Design Solutions; Image: Graphic Design Tools, Creative Imagery; Video: AI Video Generation, Marketing Video Tools, Content Creation; Life Assistant: Small Business Tools, DIY Branding Solutions
+Usage: Creating professional logos, banners, and other branding materials quickly
+Unique Features: AI-powered customization, extensive template library, fast turnaround on high-quality designs
+Pros: Quick and intuitive design process, Wide range of customizable templates, High-resolution downloads suitable for multiple platforms, Affordable for small businesses and startups
+Cons: Limited advanced customization for professional designers, No direct integration with third-party design tools, Lacks multilingual support for global users, Limited storage for saved designs unless upgraded
+Pricing: Not specified (freemium with premium upgrades)
+
+---
+
+Tool ID: privatemodeai-003
+Name: PrivateMode AI
+Description: PrivateMode AI is a privacy-first chatbot platform that provides secure, encrypted conversations using confidential computing. It ensures zero data retention, making it a trusted alternative for privacy-conscious users and businesses.
+Categories: AI Chatbot: Secure Chatbots, Private Conversations; Code & IT: Data Security, Confidential Computing, API Services; Business: Privacy Compliance, Enterprise Security Solutions
+Usage: Providing secure AI chat assistance and API integration for confidential communications
+Unique Features: End-to-end data encryption, zero data retention policy, hardware-issued cryptographic attestation
+Pros: Industry-leading end-to-end encryption, Zero data retention ensures privacy, EU-based hosting enhances data sovereignty, Supports open-source AI models without risk, No sign-up required for immediate use
+Cons: Limited selection of pre-made personas, Basic user interface may feel outdated, Lacks community features for enhanced collaboration, Currently limited to EU-based hosting with few global options
+Pricing: Not specified (likely subscription-based or free access)
+
+---
+
+Tool ID: zuvaai-021
+Name: Zuva.ai
+Description: Zuva.ai is an AI-powered platform that specializes in contract analysis by extracting key data, clauses, and insights from legal documents using advanced machine learning and natural language processing.
+Categories: Business: Contract Management, Legal Tech, Automation; Code & IT: AI Data Extraction; Productivity: Document Analysis, Workflow Optimization
+Usage: Automating the extraction of critical information from contracts and legal documents
+Unique Features: AI-powered contract analysis with data export options, scalable review of large volumes of documents
+Pros: Dramatically speeds up contract review processes, Increases accuracy and reduces human error, User-friendly interface tailored for legal documents
+Cons: Complex contracts may still require human review, Reliability depends on the training data and unusual contract types
+Pricing: Not specified (assumed subscription-based)
+2025-03-02 13:20:24,258 - INFO - =====================
+2025-03-02 13:20:24,258 - INFO - === LLM Input ===
+2025-03-02 13:20:24,263 - INFO - Question: tool_id:cryptoadvisorai-075
+2025-03-02 13:20:24,263 - INFO - Context: Tool ID: cryptoadvisorai-075
+Name: CryptoAdvisor AI
+Description: CryptoAdvisor AI is an AI-powered tool that offers market insights, trend analysis, and personalized investment strategies for cryptocurrency traders.
+Categories: Finance & Investment: Cryptocurrency Trading, Investment Tools; Productivity: Market Analysis
+Usage: Assisting crypto traders in making informed decisions through AI-driven market analysis and investment recommendations
+Unique Features: Real-time trend analysis with personalized strategy recommendations
+Pros: Provides real-time crypto market insights, Offers personalized investment strategies, User-friendly interface with interactive charts
+Cons: Relies heavily on data feed accuracy, Advanced features require premium access, May not cover all emerging cryptocurrencies
+Pricing: Subscription-based with tiered options
+
+---
+
+Tool ID: smallhoursdev-013
+Name: SmallHours.dev
+Description: SmallHours.dev is a suite of AI-powered developer tools that streamlines software development workflows by automating code generation, API testing, documentation, and debugging.
+Categories: Code & IT: Code Generators, API Testing Tools, Debugging Assistants, Documentation Tools, DevOps Tools; Productivity: Workflow Automation, Task Management for Developers; Business: Developer Collaboration Tools, Technical Documentation Assistance
+Usage: Automating backend tasks, code generation, API testing, and documentation to speed up software development
+Unique Features: AI-powered code generation, effortless API testing, and smart debugging integrated into development workflows
+Pros: Wide range of tools covering multiple aspects of development, Clean and intuitive interface, Significant time savings for repetitive coding tasks, Seamless integration with popular IDEs and version control systems
+Cons: Limited support for niche programming languages, Some features may have a learning curve for beginners, Advanced functionalities might require premium access
+Pricing: Not specified (assumed freemium with premium tiers)
+
+---
+
+Tool ID: navamai-017
+Name: Navamai.com
+Description: Navamai.com is an AI-driven platform that simplifies the creation of personalized visual content and branding materials, including logos, banners, and social media graphics, tailored to users' unique styles.
+Categories: Design & Art: Logo Generators, Banner Creators, Branding Tools; Business: Marketing Assets, Promotional Materials, Brand Identity Tools; Productivity: Visual Content Generators, Quick Design Solutions; Image: Graphic Design Tools, Creative Imagery; Video: AI Video Generation, Marketing Video Tools, Content Creation; Life Assistant: Small Business Tools, DIY Branding Solutions
+Usage: Creating professional logos, banners, and other branding materials quickly
+Unique Features: AI-powered customization, extensive template library, fast turnaround on high-quality designs
+Pros: Quick and intuitive design process, Wide range of customizable templates, High-resolution downloads suitable for multiple platforms, Affordable for small businesses and startups
+Cons: Limited advanced customization for professional designers, No direct integration with third-party design tools, Lacks multilingual support for global users, Limited storage for saved designs unless upgraded
+Pricing: Not specified (freemium with premium upgrades)
+
+---
+
+Tool ID: privatemodeai-003
+Name: PrivateMode AI
+Description: PrivateMode AI is a privacy-first chatbot platform that provides secure, encrypted conversations using confidential computing. It ensures zero data retention, making it a trusted alternative for privacy-conscious users and businesses.
+Categories: AI Chatbot: Secure Chatbots, Private Conversations; Code & IT: Data Security, Confidential Computing, API Services; Business: Privacy Compliance, Enterprise Security Solutions
+Usage: Providing secure AI chat assistance and API integration for confidential communications
+Unique Features: End-to-end data encryption, zero data retention policy, hardware-issued cryptographic attestation
+Pros: Industry-leading end-to-end encryption, Zero data retention ensures privacy, EU-based hosting enhances data sovereignty, Supports open-source AI models without risk, No sign-up required for immediate use
+Cons: Limited selection of pre-made personas, Basic user interface may feel outdated, Lacks community features for enhanced collaboration, Currently limited to EU-based hosting with few global options
+Pricing: Not specified (likely subscription-based or free access)
+
+---
+
+Tool ID: zuvaai-021
+Name: Zuva.ai
+Description: Zuva.ai is an AI-powered platform that specializes in contract analysis by extracting key data, clauses, and insights from legal documents using advanced machine learning and natural language processing.
+Categories: Business: Contract Management, Legal Tech, Automation; Code & IT: AI Data Extraction; Productivity: Document Analysis, Workflow Optimization
+Usage: Automating the extraction of critical information from contracts and legal documents
+Unique Features: AI-powered contract analysis with data export options, scalable review of large volumes of documents
+Pros: Dramatically speeds up contract review processes, Increases accuracy and reduces human error, User-friendly interface tailored for legal documents
+Cons: Complex contracts may still require human review, Reliability depends on the training data and unusual contract types
+Pricing: Not specified (assumed subscription-based)
+2025-03-02 13:20:24,263 - INFO - ================
+2025-03-02 13:20:26,236 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-02 13:20:34,518 - INFO - Cleaned response: {
+  "tool_id": [
+    "cryptoadvisorai-075"
+  ],
+  "tools": [
+    {
+      "id": "cryptoadvisorai-075",
+      "name": "CryptoAdvisor AI",
+      "description": "CryptoAdvisor AI is an AI-powered tool that offers market insights, trend analysis, and personalized investment strategies for cryptocurrency traders."
+    }
+  ]
+}
+2025-03-02 13:21:23,843 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 13:21:23,843 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 13:21:23,843 - INFO - Installing plugin inference into Pinecone
+2025-03-02 13:21:27,372 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 13:21:28,954 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 13:21:29,293 - INFO - Updated tool: CryptoAdvisor AI (Tool ID: cryptoadvisorai-075, RID: 4cea1816-e0ff-433d-86b8-cd24642cdaa2)
+2025-03-02 13:21:35,303 - INFO - Processing query: tool_id:cryptoadvisorai-075
+2025-03-02 13:21:36,045 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 13:21:36,045 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 13:21:36,045 - INFO - Installing plugin inference into Pinecone
+2025-03-02 13:21:38,600 - INFO - Total vectors in index: 74
+2025-03-02 13:21:38,600 - INFO - Total vectors in store: 74
+2025-03-02 13:21:41,440 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 13:21:43,822 - INFO - === Document 1 ===
+2025-03-02 13:21:43,822 - INFO - Tool ID: cryptoadvisorai-075
+2025-03-02 13:21:43,822 - INFO - Formatted doc: Tool ID: cryptoadvisorai-075
+Name: CryptoAdvisor AI
+Description: CryptoAdvisor AI is an AI-powered tool that offers market insights, trend analysis, and personalized investment strategies for cryptocurrency traders.
+Categories: Finance & Investment: Cryptocurrency Trading, Investment Tools; Productivity: Market Analysis
+Usage: Assisting crypto traders in making informed decisions through AI-driven market analysis and investment recommendations
+Unique Features: Real-time trend analysis with personalized strategy recommendations
+Pros: Provides real-time crypto market insights, Offers personalized investment strategies, User-friendly interface with interactive charts
+Cons: Relies heavily on data feed accuracy, Advanced features require premium access, May not cover all emerging cryptocurrencies
+Pricing: Subscription-based with tiered options
+2025-03-02 13:21:43,822 - INFO - =====================
+2025-03-02 13:21:43,822 - INFO - === Document 2 ===
+2025-03-02 13:21:43,822 - INFO - Tool ID: smallhoursdev-013
+2025-03-02 13:21:43,822 - INFO - Formatted doc: Tool ID: smallhoursdev-013
+Name: SmallHours.dev
+Description: SmallHours.dev is a suite of AI-powered developer tools that streamlines software development workflows by automating code generation, API testing, documentation, and debugging.
+Categories: Code & IT: Code Generators, API Testing Tools, Debugging Assistants, Documentation Tools, DevOps Tools; Productivity: Workflow Automation, Task Management for Developers; Business: Developer Collaboration Tools, Technical Documentation Assistance
+Usage: Automating backend tasks, code generation, API testing, and documentation to speed up software development
+Unique Features: AI-powered code generation, effortless API testing, and smart debugging integrated into development workflows
+Pros: Wide range of tools covering multiple aspects of development, Clean and intuitive interface, Significant time savings for repetitive coding tasks, Seamless integration with popular IDEs and version control systems
+Cons: Limited support for niche programming languages, Some features may have a learning curve for beginners, Advanced functionalities might require premium access
+Pricing: Not specified (assumed freemium with premium tiers)
+2025-03-02 13:21:43,822 - INFO - =====================
+2025-03-02 13:21:43,822 - INFO - === Document 3 ===
+2025-03-02 13:21:43,822 - INFO - Tool ID: navamai-017
+2025-03-02 13:21:43,822 - INFO - Formatted doc: Tool ID: navamai-017
+Name: Navamai.com
+Description: Navamai.com is an AI-driven platform that simplifies the creation of personalized visual content and branding materials, including logos, banners, and social media graphics, tailored to users' unique styles.
+Categories: Design & Art: Logo Generators, Banner Creators, Branding Tools; Business: Marketing Assets, Promotional Materials, Brand Identity Tools; Productivity: Visual Content Generators, Quick Design Solutions; Image: Graphic Design Tools, Creative Imagery; Video: AI Video Generation, Marketing Video Tools, Content Creation; Life Assistant: Small Business Tools, DIY Branding Solutions
+Usage: Creating professional logos, banners, and other branding materials quickly
+Unique Features: AI-powered customization, extensive template library, fast turnaround on high-quality designs
+Pros: Quick and intuitive design process, Wide range of customizable templates, High-resolution downloads suitable for multiple platforms, Affordable for small businesses and startups
+Cons: Limited advanced customization for professional designers, No direct integration with third-party design tools, Lacks multilingual support for global users, Limited storage for saved designs unless upgraded
+Pricing: Not specified (freemium with premium upgrades)
+2025-03-02 13:21:43,828 - INFO - =====================
+2025-03-02 13:21:43,828 - INFO - === Document 4 ===
+2025-03-02 13:21:43,828 - INFO - Tool ID: privatemodeai-003
+2025-03-02 13:21:43,828 - INFO - Formatted doc: Tool ID: privatemodeai-003
+Name: PrivateMode AI
+Description: PrivateMode AI is a privacy-first chatbot platform that provides secure, encrypted conversations using confidential computing. It ensures zero data retention, making it a trusted alternative for privacy-conscious users and businesses.
+Categories: AI Chatbot: Secure Chatbots, Private Conversations; Code & IT: Data Security, Confidential Computing, API Services; Business: Privacy Compliance, Enterprise Security Solutions
+Usage: Providing secure AI chat assistance and API integration for confidential communications
+Unique Features: End-to-end data encryption, zero data retention policy, hardware-issued cryptographic attestation
+Pros: Industry-leading end-to-end encryption, Zero data retention ensures privacy, EU-based hosting enhances data sovereignty, Supports open-source AI models without risk, No sign-up required for immediate use
+Cons: Limited selection of pre-made personas, Basic user interface may feel outdated, Lacks community features for enhanced collaboration, Currently limited to EU-based hosting with few global options
+Pricing: Not specified (likely subscription-based or free access)
+2025-03-02 13:21:43,828 - INFO - =====================
+2025-03-02 13:21:43,828 - INFO - === Document 5 ===
+2025-03-02 13:21:43,828 - INFO - Tool ID: zuvaai-021
+2025-03-02 13:21:43,828 - INFO - Formatted doc: Tool ID: zuvaai-021
+Name: Zuva.ai
+Description: Zuva.ai is an AI-powered platform that specializes in contract analysis by extracting key data, clauses, and insights from legal documents using advanced machine learning and natural language processing.
+Categories: Business: Contract Management, Legal Tech, Automation; Code & IT: AI Data Extraction; Productivity: Document Analysis, Workflow Optimization
+Usage: Automating the extraction of critical information from contracts and legal documents
+Unique Features: AI-powered contract analysis with data export options, scalable review of large volumes of documents
+Pros: Dramatically speeds up contract review processes, Increases accuracy and reduces human error, User-friendly interface tailored for legal documents
+Cons: Complex contracts may still require human review, Reliability depends on the training data and unusual contract types
+Pricing: Not specified (assumed subscription-based)
+2025-03-02 13:21:43,828 - INFO - =====================
+2025-03-02 13:21:43,828 - INFO - === Complete Context ===
+2025-03-02 13:21:43,828 - INFO - Tool ID: cryptoadvisorai-075
+Name: CryptoAdvisor AI
+Description: CryptoAdvisor AI is an AI-powered tool that offers market insights, trend analysis, and personalized investment strategies for cryptocurrency traders.
+Categories: Finance & Investment: Cryptocurrency Trading, Investment Tools; Productivity: Market Analysis
+Usage: Assisting crypto traders in making informed decisions through AI-driven market analysis and investment recommendations
+Unique Features: Real-time trend analysis with personalized strategy recommendations
+Pros: Provides real-time crypto market insights, Offers personalized investment strategies, User-friendly interface with interactive charts
+Cons: Relies heavily on data feed accuracy, Advanced features require premium access, May not cover all emerging cryptocurrencies
+Pricing: Subscription-based with tiered options
+
+---
+
+Tool ID: smallhoursdev-013
+Name: SmallHours.dev
+Description: SmallHours.dev is a suite of AI-powered developer tools that streamlines software development workflows by automating code generation, API testing, documentation, and debugging.
+Categories: Code & IT: Code Generators, API Testing Tools, Debugging Assistants, Documentation Tools, DevOps Tools; Productivity: Workflow Automation, Task Management for Developers; Business: Developer Collaboration Tools, Technical Documentation Assistance
+Usage: Automating backend tasks, code generation, API testing, and documentation to speed up software development
+Unique Features: AI-powered code generation, effortless API testing, and smart debugging integrated into development workflows
+Pros: Wide range of tools covering multiple aspects of development, Clean and intuitive interface, Significant time savings for repetitive coding tasks, Seamless integration with popular IDEs and version control systems
+Cons: Limited support for niche programming languages, Some features may have a learning curve for beginners, Advanced functionalities might require premium access
+Pricing: Not specified (assumed freemium with premium tiers)
+
+---
+
+Tool ID: navamai-017
+Name: Navamai.com
+Description: Navamai.com is an AI-driven platform that simplifies the creation of personalized visual content and branding materials, including logos, banners, and social media graphics, tailored to users' unique styles.
+Categories: Design & Art: Logo Generators, Banner Creators, Branding Tools; Business: Marketing Assets, Promotional Materials, Brand Identity Tools; Productivity: Visual Content Generators, Quick Design Solutions; Image: Graphic Design Tools, Creative Imagery; Video: AI Video Generation, Marketing Video Tools, Content Creation; Life Assistant: Small Business Tools, DIY Branding Solutions
+Usage: Creating professional logos, banners, and other branding materials quickly
+Unique Features: AI-powered customization, extensive template library, fast turnaround on high-quality designs
+Pros: Quick and intuitive design process, Wide range of customizable templates, High-resolution downloads suitable for multiple platforms, Affordable for small businesses and startups
+Cons: Limited advanced customization for professional designers, No direct integration with third-party design tools, Lacks multilingual support for global users, Limited storage for saved designs unless upgraded
+Pricing: Not specified (freemium with premium upgrades)
+
+---
+
+Tool ID: privatemodeai-003
+Name: PrivateMode AI
+Description: PrivateMode AI is a privacy-first chatbot platform that provides secure, encrypted conversations using confidential computing. It ensures zero data retention, making it a trusted alternative for privacy-conscious users and businesses.
+Categories: AI Chatbot: Secure Chatbots, Private Conversations; Code & IT: Data Security, Confidential Computing, API Services; Business: Privacy Compliance, Enterprise Security Solutions
+Usage: Providing secure AI chat assistance and API integration for confidential communications
+Unique Features: End-to-end data encryption, zero data retention policy, hardware-issued cryptographic attestation
+Pros: Industry-leading end-to-end encryption, Zero data retention ensures privacy, EU-based hosting enhances data sovereignty, Supports open-source AI models without risk, No sign-up required for immediate use
+Cons: Limited selection of pre-made personas, Basic user interface may feel outdated, Lacks community features for enhanced collaboration, Currently limited to EU-based hosting with few global options
+Pricing: Not specified (likely subscription-based or free access)
+
+---
+
+Tool ID: zuvaai-021
+Name: Zuva.ai
+Description: Zuva.ai is an AI-powered platform that specializes in contract analysis by extracting key data, clauses, and insights from legal documents using advanced machine learning and natural language processing.
+Categories: Business: Contract Management, Legal Tech, Automation; Code & IT: AI Data Extraction; Productivity: Document Analysis, Workflow Optimization
+Usage: Automating the extraction of critical information from contracts and legal documents
+Unique Features: AI-powered contract analysis with data export options, scalable review of large volumes of documents
+Pros: Dramatically speeds up contract review processes, Increases accuracy and reduces human error, User-friendly interface tailored for legal documents
+Cons: Complex contracts may still require human review, Reliability depends on the training data and unusual contract types
+Pricing: Not specified (assumed subscription-based)
+2025-03-02 13:21:43,828 - INFO - =====================
+2025-03-02 13:21:43,828 - INFO - === LLM Input ===
+2025-03-02 13:21:43,828 - INFO - Question: tool_id:cryptoadvisorai-075
+2025-03-02 13:21:43,828 - INFO - Context: Tool ID: cryptoadvisorai-075
+Name: CryptoAdvisor AI
+Description: CryptoAdvisor AI is an AI-powered tool that offers market insights, trend analysis, and personalized investment strategies for cryptocurrency traders.
+Categories: Finance & Investment: Cryptocurrency Trading, Investment Tools; Productivity: Market Analysis
+Usage: Assisting crypto traders in making informed decisions through AI-driven market analysis and investment recommendations
+Unique Features: Real-time trend analysis with personalized strategy recommendations
+Pros: Provides real-time crypto market insights, Offers personalized investment strategies, User-friendly interface with interactive charts
+Cons: Relies heavily on data feed accuracy, Advanced features require premium access, May not cover all emerging cryptocurrencies
+Pricing: Subscription-based with tiered options
+
+---
+
+Tool ID: smallhoursdev-013
+Name: SmallHours.dev
+Description: SmallHours.dev is a suite of AI-powered developer tools that streamlines software development workflows by automating code generation, API testing, documentation, and debugging.
+Categories: Code & IT: Code Generators, API Testing Tools, Debugging Assistants, Documentation Tools, DevOps Tools; Productivity: Workflow Automation, Task Management for Developers; Business: Developer Collaboration Tools, Technical Documentation Assistance
+Usage: Automating backend tasks, code generation, API testing, and documentation to speed up software development
+Unique Features: AI-powered code generation, effortless API testing, and smart debugging integrated into development workflows
+Pros: Wide range of tools covering multiple aspects of development, Clean and intuitive interface, Significant time savings for repetitive coding tasks, Seamless integration with popular IDEs and version control systems
+Cons: Limited support for niche programming languages, Some features may have a learning curve for beginners, Advanced functionalities might require premium access
+Pricing: Not specified (assumed freemium with premium tiers)
+
+---
+
+Tool ID: navamai-017
+Name: Navamai.com
+Description: Navamai.com is an AI-driven platform that simplifies the creation of personalized visual content and branding materials, including logos, banners, and social media graphics, tailored to users' unique styles.
+Categories: Design & Art: Logo Generators, Banner Creators, Branding Tools; Business: Marketing Assets, Promotional Materials, Brand Identity Tools; Productivity: Visual Content Generators, Quick Design Solutions; Image: Graphic Design Tools, Creative Imagery; Video: AI Video Generation, Marketing Video Tools, Content Creation; Life Assistant: Small Business Tools, DIY Branding Solutions
+Usage: Creating professional logos, banners, and other branding materials quickly
+Unique Features: AI-powered customization, extensive template library, fast turnaround on high-quality designs
+Pros: Quick and intuitive design process, Wide range of customizable templates, High-resolution downloads suitable for multiple platforms, Affordable for small businesses and startups
+Cons: Limited advanced customization for professional designers, No direct integration with third-party design tools, Lacks multilingual support for global users, Limited storage for saved designs unless upgraded
+Pricing: Not specified (freemium with premium upgrades)
+
+---
+
+Tool ID: privatemodeai-003
+Name: PrivateMode AI
+Description: PrivateMode AI is a privacy-first chatbot platform that provides secure, encrypted conversations using confidential computing. It ensures zero data retention, making it a trusted alternative for privacy-conscious users and businesses.
+Categories: AI Chatbot: Secure Chatbots, Private Conversations; Code & IT: Data Security, Confidential Computing, API Services; Business: Privacy Compliance, Enterprise Security Solutions
+Usage: Providing secure AI chat assistance and API integration for confidential communications
+Unique Features: End-to-end data encryption, zero data retention policy, hardware-issued cryptographic attestation
+Pros: Industry-leading end-to-end encryption, Zero data retention ensures privacy, EU-based hosting enhances data sovereignty, Supports open-source AI models without risk, No sign-up required for immediate use
+Cons: Limited selection of pre-made personas, Basic user interface may feel outdated, Lacks community features for enhanced collaboration, Currently limited to EU-based hosting with few global options
+Pricing: Not specified (likely subscription-based or free access)
+
+---
+
+Tool ID: zuvaai-021
+Name: Zuva.ai
+Description: Zuva.ai is an AI-powered platform that specializes in contract analysis by extracting key data, clauses, and insights from legal documents using advanced machine learning and natural language processing.
+Categories: Business: Contract Management, Legal Tech, Automation; Code & IT: AI Data Extraction; Productivity: Document Analysis, Workflow Optimization
+Usage: Automating the extraction of critical information from contracts and legal documents
+Unique Features: AI-powered contract analysis with data export options, scalable review of large volumes of documents
+Pros: Dramatically speeds up contract review processes, Increases accuracy and reduces human error, User-friendly interface tailored for legal documents
+Cons: Complex contracts may still require human review, Reliability depends on the training data and unusual contract types
+Pricing: Not specified (assumed subscription-based)
+2025-03-02 13:21:43,828 - INFO - ================
+2025-03-02 13:21:44,358 - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-03-02 13:21:53,839 - INFO - Cleaned response: {
+  "tool_id": [
+    "cryptoadvisorai-075"
+  ],
+  "tools": [
+    {
+      "id": "cryptoadvisorai-075",
+      "name": "CryptoAdvisor AI",
+      "description": "CryptoAdvisor AI is an AI-powered tool that offers market insights, trend analysis, and personalized investment strategies for cryptocurrency traders.",
+      "categories": [
+        "Finance & Investment",
+        "Productivity: Market Analysis"
+      ],
+      "usage": "Assisting crypto traders in making informed decisions through AI-driven market analysis and investment recommendations",
+      "unique_features": "Real-time trend analysis with personalized strategy recommendations"
+    }
+  ]
+}
+2025-03-02 13:22:37,724 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\prash\\OneDrive\\Desktop\\rag\\env\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-02 13:22:37,724 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-02 13:22:37,724 - INFO - Installing plugin inference into Pinecone
+2025-03-02 13:22:41,046 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 13:22:42,577 - INFO - HTTP Request: POST http://localhost:11434/api/embed "HTTP/1.1 200 OK"
+2025-03-02 13:22:42,925 - INFO - Updated tool: CryptoAdvisor AI (Tool ID: cryptoadvisorai-075, RID: 4cea1816-e0ff-433d-86b8-cd24642cdaa2)

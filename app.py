@@ -163,19 +163,23 @@ with st.sidebar:
     st.divider()
     if st.button("Check API Health"):
         try:
-            # Prepare model selection to send
-            headers = {}
-            headers["MODEL_CHOICE"] = st.session_state.model_choice
-                
-            response = requests.get(
-                f"{st.session_state.api_url}/health", 
-                headers=headers
-            )
+            # First try without sending any custom headers
+            response = requests.get(f"{st.session_state.api_url}/health")
             if response.status_code == 200:
                 st.success("API is healthy! ✅")
                 st.json(response.json())
+                
+                # Display model choice that would be sent
+                st.info(f"Selected model: {st.session_state.model_choice}")
+                st.caption("Note: Model choice will be applied to other API calls but not used for health check.")
             else:
                 st.error(f"API returned status code: {response.status_code}")
+                # Try to parse and display the detailed error message
+                try:
+                    error_detail = response.json().get("detail", response.text)
+                    st.error(f"Error detail: {error_detail}")
+                except:
+                    st.text(f"Response body: {response.text}")
         except Exception as e:
             st.error(f"Error connecting to API: {str(e)}")
 
@@ -197,7 +201,7 @@ with tabs[0]:
         st.session_state.last_query = query
         with st.spinner("Searching..."):
             try:
-                # Prepare environment variables to send
+                # Prepare headers with model choice
                 headers = {}
                 headers["MODEL_CHOICE"] = st.session_state.model_choice
                 
@@ -299,15 +303,10 @@ with tabs[1]:
                     
                     try:
                         with st.spinner("Adding tool..."):
-                            # Prepare environment variables to send
+                            # Prepare headers with model choice
                             headers = {}
-                            if st.session_state.environment == "DEV":
-                                headers["ENVIRONMENT"] = "DEV"
-                                headers["DEV_MODEL"] = st.session_state.dev_model
-                            else:
-                                headers["ENVIRONMENT"] = "PROD"
-                                headers["PROD_MODEL"] = st.session_state.prod_model
-                                
+                            headers["MODEL_CHOICE"] = st.session_state.model_choice
+                            
                             response = requests.post(
                                 f"{st.session_state.api_url}/add-tools",
                                 json=payload,
@@ -366,15 +365,10 @@ with tabs[1]:
                 if st.button("Process Bulk Upload", type="primary"):
                     with st.spinner("Uploading tools..."):
                         try:
-                            # Prepare environment variables to send
+                            # Prepare headers with model choice
                             headers = {}
-                            if st.session_state.environment == "DEV":
-                                headers["ENVIRONMENT"] = "DEV"
-                                headers["DEV_MODEL"] = st.session_state.dev_model
-                            else:
-                                headers["ENVIRONMENT"] = "PROD"
-                                headers["PROD_MODEL"] = st.session_state.prod_model
-                                
+                            headers["MODEL_CHOICE"] = st.session_state.model_choice
+                            
                             response = requests.post(
                                 f"{st.session_state.api_url}/add-tools",
                                 json=data,
@@ -428,15 +422,10 @@ with tabs[2]:
             # In a real implementation, you would have an endpoint to fetch a single tool
             # For now, we'll simulate fetching by querying with the tool ID
             try:
-                # Prepare environment variables to send
+                # Prepare headers with model choice
                 headers = {}
-                if st.session_state.environment == "DEV":
-                    headers["ENVIRONMENT"] = "DEV"
-                    headers["DEV_MODEL"] = st.session_state.dev_model
-                else:
-                    headers["ENVIRONMENT"] = "PROD"
-                    headers["PROD_MODEL"] = st.session_state.prod_model
-                    
+                headers["MODEL_CHOICE"] = st.session_state.model_choice
+                
                 response = requests.post(
                     f"{st.session_state.api_url}/query",
                     json={"query": f"tool_id:{tool_id_to_update}"},
@@ -552,15 +541,10 @@ with tabs[2]:
                     
                     try:
                         with st.spinner("Updating tool..."):
-                            # Prepare environment variables to send
+                            # Prepare headers with model choice
                             headers = {}
-                            if st.session_state.environment == "DEV":
-                                headers["ENVIRONMENT"] = "DEV"
-                                headers["DEV_MODEL"] = st.session_state.dev_model
-                            else:
-                                headers["ENVIRONMENT"] = "PROD"
-                                headers["PROD_MODEL"] = st.session_state.prod_model
-                                
+                            headers["MODEL_CHOICE"] = st.session_state.model_choice
+                            
                             response = requests.put(
                                 f"{st.session_state.api_url}/update-tools",
                                 json=payload,
@@ -598,15 +582,10 @@ with tabs[3]:
     if st.button("Delete Tool", type="primary", disabled=not confirm_delete or not tool_id_to_delete):
         with st.spinner("Deleting tool..."):
             try:
-                # Prepare environment variables to send
+                # Prepare headers with model choice
                 headers = {}
-                if st.session_state.environment == "DEV":
-                    headers["ENVIRONMENT"] = "DEV"
-                    headers["DEV_MODEL"] = st.session_state.dev_model
-                else:
-                    headers["ENVIRONMENT"] = "PROD"
-                    headers["PROD_MODEL"] = st.session_state.prod_model
-                    
+                headers["MODEL_CHOICE"] = st.session_state.model_choice
+                
                 response = requests.delete(
                     f"{st.session_state.api_url}/delete-tool/{tool_id_to_delete}",
                     headers=headers
@@ -639,15 +618,10 @@ with tabs[3]:
     if st.button("Clear Index", type="primary", disabled=not confirm_clear or not st.session_state.api_key):
         with st.spinner("Clearing index..."):
             try:
-                # Prepare environment variables to send
+                # Prepare headers with model choice
                 headers = {}
-                if st.session_state.environment == "DEV":
-                    headers["ENVIRONMENT"] = "DEV"
-                    headers["DEV_MODEL"] = st.session_state.dev_model
-                else:
-                    headers["ENVIRONMENT"] = "PROD"
-                    headers["PROD_MODEL"] = st.session_state.prod_model
-                    
+                headers["MODEL_CHOICE"] = st.session_state.model_choice
+                
                 response = requests.delete(
                     f"{st.session_state.api_url}/clear-index",
                     json={"api_key": st.session_state.api_key},
@@ -675,15 +649,10 @@ with tabs[4]:
     if st.button("Refresh Statistics", key="refresh_stats"):
         with st.spinner("Fetching statistics..."):
             try:
-                # Prepare environment variables to send
+                # Prepare headers with model choice
                 headers = {}
-                if st.session_state.environment == "DEV":
-                    headers["ENVIRONMENT"] = "DEV"
-                    headers["DEV_MODEL"] = st.session_state.dev_model
-                else:
-                    headers["ENVIRONMENT"] = "PROD"
-                    headers["PROD_MODEL"] = st.session_state.prod_model
-                    
+                headers["MODEL_CHOICE"] = st.session_state.model_choice
+                
                 response = requests.get(
                     f"{st.session_state.api_url}/stats",
                     headers=headers

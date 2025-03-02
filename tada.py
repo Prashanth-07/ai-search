@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
 from typing import List, Optional, Dict, Any
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from pydantic import BaseModel, Field
 from pinecone import Pinecone
 from langchain_community.vectorstores import Pinecone as LangchainPinecone
@@ -164,8 +164,27 @@ class DeleteResponse(BaseModel):
 #     )
     
 #     return rag_chain
+# Add this function near the top of your file
+def get_current_model(headers=None):
+    """
+    Get the current model based on headers or environment variables
+    """
+    # Default to environment variable if no headers provided
+    if not headers:
+        environment = os.getenv("ENVIRONMENT", "DEV")
+        if environment == "DEV":
+            return os.getenv("DEV_MODEL", "deepseek-r1:1.5b")
+        else:
+            return os.getenv("PROD_MODEL", "deepseek-r1:7b")
+    
+    # Use header if provided
+    model_choice = headers.get("MODEL_CHOICE", "DEV_MODEL")
+    if model_choice == "PROD_MODEL":
+        return os.getenv("PROD_MODEL", "deepseek-r1:7b")
+    else:
+        return os.getenv("DEV_MODEL", "deepseek-r1:1.5b")
 
-def create_rag_chain(retriever):
+def create_rag_chain(retriever, headers=None):
     """
     Creates a RAG chain with debug logging using updated LangChain syntax
     """
@@ -198,11 +217,8 @@ def create_rag_chain(retriever):
     - Ensure the most relevant tools appear first in the ranking
     """
     # Get the model based on environment variable
-    environment = os.getenv("ENVIRONMENT", "DEV")
-    if environment == "DEV":
-        current_model = os.getenv("DEV_MODEL", "deepseek-r1:1.5b")
-    else:
-        current_model = os.getenv("PROD_MODEL", "deepseek-r1:7b")
+    # environment = os.getenv("ENVIRONMENT", "DEV")
+    current_model = get_current_model(headers)
     model = ChatOllama(
         model=current_model,
         base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"),
@@ -359,26 +375,47 @@ async def root():
 async def health_check():
     """Check if API and Pinecone connection are healthy"""
     try:
-        # Get the model choice from the request header
-        model_choice = request.headers.get("MODEL_CHOICE", "DEV_MODEL")
+        logger.info("Health check started")
         
-        # Use the appropriate environment variable based on the header
-        if model_choice == "PROD_MODEL":
-            current_model = os.getenv("PROD_MODEL", "deepseek-r1:7b")
-        else:
-            current_model = os.getenv("DEV_MODEL", "deepseek-r1:1.5b")
+        # Check if all required environment variables are set
+        logger.info("Checking environment variables")
+        if not PINECONE_API_KEY:
+            logger.error("PINECONE_API_KEY is not set")
+            raise ValueError("PINECONE_API_KEY environment variable is not set")
         
-        # Use current_model for your operations...
+        logger.info("Initializing Pinecone client")
+        # Initialize Pinecone client
+        pc = Pinecone(api_key=PINECONE_API_KEY)
         
+        logger.info("Verifying Pinecone connection")
         # Verify Pinecone connection
         _ = get_or_create_index()
+        
+        logger.info("Health check completed successfully")
         return {
             "status": "healthy",
             "api_version": "1.0",
-            "model_in_use": current_model,
             "timestamp": datetime.now().isoformat()
         }
     except Exception as e:
+        logger.error(f"Health check failed: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Service unhealthy: {str(e)}"
+        )
+    
+@app.get("/basic-health")
+async def basic_health_check():
+    """Simple health check that doesn't test Pinecone connection"""
+    try:
+        return {
+            "status": "api_running",
+            "api_version": "1.0",
+            "timestamp": datetime.now().isoformat(),
+            "note": "This endpoint only checks if the API is running, not the Pinecone connection"
+        }
+    except Exception as e:
+        logger.error(f"Basic health check failed: {str(e)}")
         raise HTTPException(
             status_code=500,
             detail=f"Service unhealthy: {str(e)}"
@@ -516,10 +553,12 @@ async def add_tools(bulk_request: BulkToolRequest):
 #         )
     
 @app.post("/query", response_model=QueryResponse)
-async def query_tools(request: QueryRequest):
+async def query_tools(request: QueryRequest, request_headers: Request):
     """Query tools based on user input using MMR retrieval and a RAG chain."""
     try:
         logger.info(f"Processing query: {request.query}")
+
+        headers = request_headers.headers
 
         # Get the vector store
         vector_store = get_vector_store()
@@ -539,7 +578,7 @@ async def query_tools(request: QueryRequest):
         )
 
         # Create RAG chain
-        rag_chain = create_rag_chain(retriever)
+        rag_chain = create_rag_chain(retriever, headers)
         
         # Execute the chain asynchronously
         response = await rag_chain(request.query)  
