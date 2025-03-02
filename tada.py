@@ -188,7 +188,7 @@ def create_rag_chain(retriever, headers=None):
     """
     Creates a RAG chain with debug logging using updated LangChain syntax
     """
-    prompt = """You are an AI assistant specializing in retrieving and ranking relevant AI tools based on user queries. 
+    prompt =  """You are an AI assistant specializing in retrieving and ranking relevant AI tools based on user queries. 
     Your task is to analyze the user's question and match it to the most relevant tools from the provided dataset.
 
     User Query: {question}
@@ -200,14 +200,26 @@ def create_rag_chain(retriever, headers=None):
     2. Match the query with relevant tools from the dataset.
     3. Rank relevant tools based on best match (most relevant first).
     4. Only return tools that match the query; do NOT include irrelevant tools.
-    5. Strictly output in JSON format using the tool_id field from the metadata, NOT the rid.
+    5. For each tool, explain briefly how it relates to the user's query.
+    6. Include at least 2-3 tools in the response if available.
+    7. Strictly output in JSON format using the tool_id field from the metadata, NOT the rid.
 
     **Response Format (Strict JSON Output Only):**
     {{
         "tool_id": ["<most relevant tool_id>", "<next relevant tool_id>", ...],
         "tools": [
-            {{"id": "<tool_id>", "name": "<tool_name>", "description": "<brief description>"}},
-            {{"id": "<tool_id>", "name": "<tool_name>", "description": "<brief description>"}}
+            {{
+                "id": "<tool_id>", 
+                "name": "<tool_name>", 
+                "description": "<brief description>",
+                "relevance": "<brief explanation of how this tool relates to the query>"
+            }},
+            {{
+                "id": "<tool_id>", 
+                "name": "<tool_name>", 
+                "description": "<brief description>",
+                "relevance": "<brief explanation of how this tool relates to the query>"
+            }}
         ]
     }}
 
@@ -215,6 +227,7 @@ def create_rag_chain(retriever, headers=None):
     - Do NOT include any explanations or extra text outside the JSON structure
     - Only include relevant tools based on the user query
     - Ensure the most relevant tools appear first in the ranking
+    - Always include at least 2-3 results if possible
     """
     # Get the model based on environment variable
     # environment = os.getenv("ENVIRONMENT", "DEV")
@@ -227,13 +240,15 @@ def create_rag_chain(retriever, headers=None):
         presence_penalty=0.2,
         frequency_penalty=0.3,
         stream=True,
-        max_tokens=250,
+        max_tokens=500,
         system_prompt="""You are a retrieval AI assistant. 
         - Your goal is to find the most relevant tools for a given user query.
         - Extract key needs from {question}.
-        - Compare it against {context} and return ONLY the most relevant tool IDs and details.
+        - Compare it against {context} and return multiple relevant tool IDs and details.
+        - Always include at least 2-3 tools when available.
         - Always use the tool_id field (like "github-copilot-001") NOT the rid field.
         - Rank the tools based on best match.
+        - Add a relevance field explaining why each tool matches the query.
         - Output strictly in JSON format.
         - Do not generate text outside of the required JSON response."""
     )
@@ -551,47 +566,101 @@ async def add_tools(bulk_request: BulkToolRequest):
 #             status_code=500,
 #             detail=f"Failed to add tools: {str(e)}"
 #         )
+# Add this function to your tada.py file
+def post_process_llm_response(response_text):
+    """
+    Post-processing to:
+    1. Remove <think> tags
+    2. Remove markdown code block delimiters (```json ... ```)
+    3. Return clean JSON or text
+    """
+    try:
+        # Remove thinking section if present
+        if "<think>" in response_text:
+            # Find everything between <think> and </think> tags and remove it
+            import re
+            response_text = re.sub(r'<think>.*?</think>', '', response_text, flags=re.DOTALL)
+            response_text = response_text.strip()
+        
+        # Check if the response is wrapped in markdown code block
+        import re
+        code_block_match = re.match(r'^```(?:json)?\s*([\s\S]*?)\s*```\s*$', response_text, re.DOTALL)
+        if code_block_match:
+            # Extract just the content between the code block delimiters
+            response_text = code_block_match.group(1).strip()
+        
+        # Return the cleaned response
+        return response_text
     
+    except Exception as e:
+        # If anything fails, just return the original response
+        logger.warning(f"Error in post-processing: {str(e)}")
+        return response_text
+
 @app.post("/query", response_model=QueryResponse)
 async def query_tools(request: QueryRequest, request_headers: Request):
-    """Query tools based on user input using MMR retrieval and a RAG chain."""
+    """Query tools based on user input using multiple retrieval methods."""
     try:
         logger.info(f"Processing query: {request.query}")
-
         headers = request_headers.headers
-
+        
         # Get the vector store
         vector_store = get_vector_store()
 
         # Log total vectors for reference
         total_vectors = get_total_vectors()
         logger.info(f"Total vectors in store: {total_vectors}")
-
-        # Create retriever with MMR
-        retriever = vector_store.as_retriever(
+        
+        # 1. MMR retrieval for diverse but relevant results
+        mmr_retriever = vector_store.as_retriever(
             search_type="mmr",
             search_kwargs={
-                'k': 5,
-                'fetch_k': 8,
+                'k': 10,  # Increased from 5
+                'fetch_k': 15,  # Increased from 8
                 'lambda_mult': 0.2
             }
         )
-
-        # Create RAG chain
-        rag_chain = create_rag_chain(retriever, headers)
+        
+        # 2. Similarity retrieval for high relevance results
+        similarity_retriever = vector_store.as_retriever(
+            search_kwargs={'k': 5}
+        )
+        
+        # 3. Create a combined retriever that merges results from both methods
+        class CombinedRetriever:
+            async def aget_relevant_documents(self, query):
+                # Get documents from both retrievers
+                mmr_docs = await mmr_retriever.aget_relevant_documents(query)
+                similarity_docs = await similarity_retriever.aget_relevant_documents(query)
+                
+                # Combine and deduplicate results based on tool_id
+                all_docs = []
+                seen_ids = set()
+                
+                # Process all documents, avoiding duplicates
+                for doc in mmr_docs + similarity_docs:
+                    tool_id = doc.metadata.get('tool_id', '')
+                    
+                    if tool_id and tool_id not in seen_ids:
+                        all_docs.append(doc)
+                        seen_ids.add(tool_id)
+                
+                logger.info(f"Combined retriever found {len(all_docs)} unique tools")
+                return all_docs
+        
+        # Create RAG chain with our combined retriever
+        rag_chain = create_rag_chain(CombinedRetriever(), headers)
         
         # Execute the chain asynchronously
-        response = await rag_chain(request.query)  
-        # Parse the response to ensure correct format
+        response = await rag_chain(request.query)
+        
+        # Post-process to remove thinking tags
+        processed_response = post_process_llm_response(response)
+        
+        # Try to parse as JSON but don't fail if it's not valid
         try:
-            # Remove any thinking/extra text before JSON
-            if "<think>" in response:
-                response = response.split("```json")[-1].split("```")[0]
-            elif response.strip().startswith("{"):
-                response = response.strip()
-            
             # Parse and validate response
-            response_data = json.loads(response)
+            response_data = json.loads(processed_response)
             
             # Ensure tool_id is used instead of rid
             if "tools" in response_data:
@@ -608,23 +677,20 @@ async def query_tools(request: QueryRequest, request_headers: Request):
             
             # Clean response
             clean_response = json.dumps(response_data, indent=2)
-            logger.info(f"Cleaned response: {clean_response}")
-            
-            return QueryResponse(response=clean_response)
-            
+            logger.info(f"Processed valid JSON response")
         except json.JSONDecodeError:
-            logger.error(f"Invalid JSON in response: {response}")
-            raise HTTPException(
-                status_code=500,
-                detail="Invalid response format from LLM"
-            )
-
+            # If not valid JSON, just return the processed response as-is
+            clean_response = processed_response
+            logger.warning("Response is not valid JSON, returning as-is")
+        
+        return QueryResponse(response=clean_response)
+    
     except Exception as e:
         logger.error(f"Error in query_tools: {str(e)}")
         raise HTTPException(
             status_code=500,
             detail=f"Failed to process query: {str(e)}"
-        ) 
+        )
         # Return the final chain output
         # return QueryResponse(response=response)
 
@@ -1068,7 +1134,7 @@ if __name__ == "__main__":
 #     except Exception as e:
 #         print(f"Error in get_or_create_index: {str(e)}")
 #         raise HTTPException(
-#             status_code=500,
+#             status_code=500,query_tools
 #             detail=f"Failed to initialize Pinecone index: {str(e)}"
 #         )
 
